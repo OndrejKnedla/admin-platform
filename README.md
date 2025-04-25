@@ -46,7 +46,7 @@ The dashboard can be easily customized to:
 - Connect to different data sources
 
 ## Created By
-[Your Name]
+Ondřej Knedla
 For job application demonstration
 
 ---
