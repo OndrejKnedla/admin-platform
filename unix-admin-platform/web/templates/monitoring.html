@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unix Admin Platform - Monitoring</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <header>
+        <h1>Unix System Administration Platform</h1>
+    </header>
+    <nav>
+        <a href="/">Dashboard</a>
+        <a href="/system">System</a>
+        <a href="/monitoring" class="active">Monitoring</a>
+        <a href="/security">Security</a>
+        <a href="/backups">Backups</a>
+    </nav>
+    <main>
+        <h2>System Monitoring</h2>
+        
+        <div class="action-bar">
+            <button id="run-monitor" class="btn btn-primary">Run Monitoring Check</button>
+            <span class="last-run">Last run: {{last_run}}</span>
+            <span class="alert-count">Alerts: {{alerts}}</span>
+        </div>
+        
+        <div class="dashboard-grid">
+            <div class="card">
+                <h3>CPU Usage</h3>
+                <div class="metric">
+                    <div class="metric-value">{{cpu_usage}}</div>
+                    <div class="metric-chart" id="cpu-chart"></div>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h3>Memory Usage</h3>
+                <div class="metric">
+                    <div class="metric-value">{{memory_usage}}</div>
+                    <div class="metric-chart" id="memory-chart"></div>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h3>Disk Usage</h3>
+                <div class="metric">
+                    <div class="metric-value">{{disk_usage}}</div>
+                    <div class="metric-chart" id="disk-chart"></div>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h3>System Load</h3>
+                <div class="metric-chart" id="load-chart"></div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h3>Recent Alerts</h3>
+            <div id="alerts-list">
+                <div class="loading">Loading alerts...</div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h3>Top Processes</h3>
+            <div id="top-processes">
+                <div class="loading">Loading process data...</div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Unix System Administration Platform | Current Time: {{current_time}}</p>
+    </footer>
+    
+    <script src="/static/monitoring.js"></script>
+</body>
+</html>

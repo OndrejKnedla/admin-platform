@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unix Admin Platform - Security</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <header>
+        <h1>Unix System Administration Platform</h1>
+    </header>
+    <nav>
+        <a href="/">Dashboard</a>
+        <a href="/system">System</a>
+        <a href="/monitoring">Monitoring</a>
+        <a href="/security" class="active">Security</a>
+        <a href="/backups">Backups</a>
+    </nav>
+    <main>
+        <h2>Security Status</h2>
+        
+        <div class="action-bar">
+            <button id="run-security" class="btn btn-primary">Run Security Scan</button>
+            <span class="last-run">Last scan: {{last_scan}}</span>
+        </div>
+        
+        <div class="dashboard-grid">
+            <div class="card">
+                <h3>Security Issues</h3>
+                <div class="security-summary">
+                    <div class="security-metric high">
+                        <span class="label">High</span>
+                        <span class="value">{{high_issues}}</span>
+                    </div>
+                    <div class="security-metric medium">
+                        <span class="label">Medium</span>
+                        <span class="value">{{medium_issues}}</span>
+                    </div>
+                    <div class="security-metric low">
+                        <span class="label">Low</span>
+                        <span class="value">{{low_issues}}</span>
+                    </div>
+                    <div class="security-metric total">
+                        <span class="label">Total</span>
+                        <span class="value">{{total_issues}}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h3>Security Issues</h3>
+            <div class="issues-list">
+                {{issues}}
+            </div>
+        </div>
+        
+        <div class="card">
+            <h3>Security Recommendations</h3>
+            <div id="security-recommendations">
+                <div class="loading">Loading recommendations...</div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Unix System Administration Platform | Current Time: {{current_time}}</p>
+    </footer>
+    
+    <script src="/static/security.js"></script>
+</body>
+</html>

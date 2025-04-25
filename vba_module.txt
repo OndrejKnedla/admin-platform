@@ -1,0 +1,262 @@
+Option Explicit
+
+' System Monitoring Dashboard VBA Module
+' Created for job application demonstration
+' This module contains macros for the dashboard functionality
+
+' Refresh all data sources and recalculate
+Sub RefreshAllData()
+    Application.ScreenUpdating = False
+    ActiveWorkbook.RefreshAll
+    Calculate
+    Application.ScreenUpdating = True
+    MsgBox "Data refreshed successfully!", vbInformation
+End Sub
+
+' Generate system status report
+Sub GenerateReport()
+    Dim ws As Worksheet
+    Dim reportWs As Worksheet
+    Dim lastRow As Long
+    Dim i As Long
+    Dim reportDate As Date
+    
+    ' Set reference to worksheets
+    Set ws = ThisWorkbook.Sheets("Analysis")
+    
+    ' Check if Report sheet exists, create if not
+    On Error Resume Next
+    Set reportWs = ThisWorkbook.Sheets("Report")
+    On Error GoTo 0
+    
+    If reportWs Is Nothing Then
+        Set reportWs = ThisWorkbook.Sheets.Add(After:=ThisWorkbook.Sheets(ThisWorkbook.Sheets.Count))
+        reportWs.Name = "Report"
+    Else
+        reportWs.Cells.Clear
+    End If
+    
+    ' Format report sheet
+    With reportWs
+        .Range("A1").Value = "System Resource Monitoring Report"
+        .Range("A1").Font.Size = 16
+        .Range("A1").Font.Bold = True
+        
+        .Range("A3").Value = "Report Date:"
+        .Range("B3").Value = Now()
+        .Range("B3").NumberFormat = "yyyy-mm-dd hh:mm:ss"
+        
+        .Range("A5").Value = "Date"
+        .Range("B5").Value = "Avg CPU Usage"
+        .Range("C5").Value = "Avg Memory Usage"
+        .Range("D5").Value = "Avg Disk Usage"
+        .Range("E5").Value = "Status"
+        
+        .Range("A5:E5").Font.Bold = True
+    End With
+    
+    ' Copy data from Analysis sheet
+    lastRow = ws.Cells(ws.Rows.Count, "A").End(xlUp).Row
+    
+    For i = 2 To lastRow
+        reportWs.Cells(i + 4, 1).Value = ws.Cells(i, 1).Value  ' Date
+        reportWs.Cells(i + 4, 2).Value = ws.Cells(i, 2).Value  ' CPU
+        reportWs.Cells(i + 4, 3).Value = ws.Cells(i, 3).Value  ' Memory
+        reportWs.Cells(i + 4, 4).Value = ws.Cells(i, 4).Value  ' Disk
+        
+        ' Set status based on thresholds
+        If ws.Cells(i, 8).Value = "Warning" Or ws.Cells(i, 9).Value = "Warning" Then
+            reportWs.Cells(i + 4, 5).Value = "Warning"
+            reportWs.Cells(i + 4, 5).Font.Color = RGB(255, 0, 0)
+        Else
+            reportWs.Cells(i + 4, 5).Value = "Normal"
+            reportWs.Cells(i + 4, 5).Font.Color = RGB(0, 128, 0)
+        End If
+    Next i
+    
+    ' Format as table
+    reportWs.Range("A5:E" & (lastRow + 4)).Select
+    ActiveSheet.ListObjects.Add(xlSrcRange, Selection, , xlYes).Name = "ReportTable"
+    
+    ' Auto-fit columns
+    reportWs.Columns("A:E").AutoFit
+    
+    ' Add summary
+    reportWs.Range("A" & (lastRow + 7)).Value = "Summary:"
+    reportWs.Range("A" & (lastRow + 7)).Font.Bold = True
+    
+    reportWs.Range("A" & (lastRow + 9)).Value = "Average CPU Usage:"
+    reportWs.Range("B" & (lastRow + 9)).Value = Application.WorksheetFunction.Average(reportWs.Range("B6:B" & (lastRow + 4)))
+    reportWs.Range("B" & (lastRow + 9)).NumberFormat = "0.00"
+    
+    reportWs.Range("A" & (lastRow + 10)).Value = "Average Memory Usage:"
+    reportWs.Range("B" & (lastRow + 10)).Value = Application.WorksheetFunction.Average(reportWs.Range("C6:C" & (lastRow + 4)))
+    reportWs.Range("B" & (lastRow + 10)).NumberFormat = "0.00"
+    
+    reportWs.Range("A" & (lastRow + 11)).Value = "Average Disk Usage:"
+    reportWs.Range("B" & (lastRow + 11)).Value = Application.WorksheetFunction.Average(reportWs.Range("D6:D" & (lastRow + 4)))
+    reportWs.Range("B" & (lastRow + 11)).NumberFormat = "0.00"
+    
+    reportWs.Range("A" & (lastRow + 13)).Value = "Warning Days:"
+    reportWs.Range("B" & (lastRow + 13)).Value = Application.WorksheetFunction.CountIf(reportWs.Range("E6:E" & (lastRow + 4)), "Warning")
+    
+    ' Add chart
+    Dim chartObj As ChartObject
+    Set chartObj = reportWs.ChartObjects.Add(Left:=400, Width:=450, Top:=50, Height:=250)
+    
+    With chartObj.Chart
+        .SetSourceData Source:=reportWs.Range("A5:D" & (lastRow + 4))
+        .ChartType = xlColumnClustered
+        .HasTitle = True
+        .ChartTitle.Text = "Resource Usage by Date"
+        .Axes(xlCategory).HasTitle = True
+        .Axes(xlCategory).AxisTitle.Text = "Date"
+        .Axes(xlValue).HasTitle = True
+        .Axes(xlValue).AxisTitle.Text = "Usage %"
+    End With
+    
+    ' Activate the report sheet
+    reportWs.Activate
+    reportWs.Range("A1").Select
+    
+    MsgBox "Report generated successfully!", vbInformation
+End Sub
+
+' Export data to CSV
+Sub ExportToCSV()
+    Dim ws As Worksheet
+    Dim csvPath As String
+    Dim fileNum As Integer
+    Dim rowData As String
+    Dim i As Long, j As Long
+    Dim lastRow As Long, lastCol As Long
+    
+    ' Set reference to Analysis worksheet
+    Set ws = ThisWorkbook.Sheets("Analysis")
+    
+    ' Get last row and column
+    lastRow = ws.Cells(ws.Rows.Count, "A").End(xlUp).Row
+    lastCol = ws.Cells(1, ws.Columns.Count).End(xlToLeft).Column
+    
+    ' Create file path - save to desktop
+    csvPath = Environ("USERPROFILE") & "\Desktop\SystemMonitoring_" & Format(Now(), "yyyymmdd_hhmmss") & ".csv"
+    
+    ' Open file for output
+    fileNum = FreeFile
+    Open csvPath For Output As fileNum
+    
+    ' Write header row
+    rowData = ""
+    For j = 1 To lastCol
+        rowData = rowData & """" & ws.Cells(1, j).Value & """"
+        If j < lastCol Then rowData = rowData & ","
+    Next j
+    Print #fileNum, rowData
+    
+    ' Write data rows
+    For i = 2 To lastRow
+        rowData = ""
+        For j = 1 To lastCol
+            rowData = rowData & """" & ws.Cells(i, j).Value & """"
+            If j < lastCol Then rowData = rowData & ","
+        Next j
+        Print #fileNum, rowData
+    Next i
+    
+    ' Close file
+    Close fileNum
+    
+    MsgBox "Data exported to: " & csvPath, vbInformation
+End Sub
+
+' Show dashboard help
+Sub ShowHelp()
+    MsgBox "System Resource Monitoring Dashboard" & vbCrLf & vbCrLf & _
+           "This dashboard provides a comprehensive view of system resources." & vbCrLf & vbCrLf & _
+           "Features:" & vbCrLf & _
+           "- Real-time monitoring of CPU, Memory, and Disk usage" & vbCrLf & _
+           "- Historical trend analysis" & vbCrLf & _
+           "- Automatic warning system for resource thresholds" & vbCrLf & _
+           "- Reporting capabilities" & vbCrLf & vbCrLf & _
+           "For assistance, contact the IT department.", vbInformation, "Dashboard Help"
+End Sub
+
+' Navigate between sheets
+Sub GoToDashboard()
+    ThisWorkbook.Sheets("Dashboard").Activate
+End Sub
+
+Sub GoToRawData()
+    ThisWorkbook.Sheets("Raw Data").Activate
+End Sub
+
+Sub GoToAnalysis()
+    ThisWorkbook.Sheets("Analysis").Activate
+End Sub
+
+Sub GoToCharts()
+    ThisWorkbook.Sheets("Charts").Activate
+End Sub
+
+' Apply conditional formatting to dashboard
+Sub ApplyConditionalFormatting()
+    Dim ws As Worksheet
+    Dim rng As Range
+    
+    ' Set reference to Dashboard worksheet
+    Set ws = ThisWorkbook.Sheets("Dashboard")
+    
+    ' Clear existing conditional formatting
+    ws.Cells.FormatConditions.Delete
+    
+    ' Apply to CPU gauge
+    Set rng = ws.Range("B5")
+    With rng.FormatConditions.Add(Type:=xlCellValue, Operator:=xlGreaterEqual, Formula1:="80")
+        .Interior.Color = RGB(255, 0, 0)
+    End With
+    
+    With rng.FormatConditions.Add(Type:=xlCellValue, Operator:=xlBetween, Formula1:="60", Formula2:="79.99")
+        .Interior.Color = RGB(255, 255, 0)
+    End With
+    
+    With rng.FormatConditions.Add(Type:=xlCellValue, Operator:=xlLess, Formula1:="60")
+        .Interior.Color = RGB(0, 255, 0)
+    End With
+    
+    ' Apply to Memory gauge
+    Set rng = ws.Range("B6")
+    With rng.FormatConditions.Add(Type:=xlCellValue, Operator:=xlGreaterEqual, Formula1:="80")
+        .Interior.Color = RGB(255, 0, 0)
+    End With
+    
+    With rng.FormatConditions.Add(Type:=xlCellValue, Operator:=xlBetween, Formula1:="60", Formula2:="79.99")
+        .Interior.Color = RGB(255, 255, 0)
+    End With
+    
+    With rng.FormatConditions.Add(Type:=xlCellValue, Operator:=xlLess, Formula1:="60")
+        .Interior.Color = RGB(0, 255, 0)
+    End With
+    
+    ' Apply to Disk gauge
+    Set rng = ws.Range("B7")
+    With rng.FormatConditions.Add(Type:=xlCellValue, Operator:=xlGreaterEqual, Formula1:="90")
+        .Interior.Color = RGB(255, 0, 0)
+    End With
+    
+    With rng.FormatConditions.Add(Type:=xlCellValue, Operator:=xlBetween, Formula1:="70", Formula2:="89.99")
+        .Interior.Color = RGB(255, 255, 0)
+    End With
+    
+    With rng.FormatConditions.Add(Type:=xlCellValue, Operator:=xlLess, Formula1:="70")
+        .Interior.Color = RGB(0, 255, 0)
+    End With
+    
+    MsgBox "Conditional formatting applied successfully!", vbInformation
+End Sub
+
+' Initialize dashboard on workbook open
+Sub InitializeDashboard()
+    ' This sub is called when the workbook opens
+    Call ApplyConditionalFormatting
+    ThisWorkbook.Sheets("Dashboard").Activate
+End Sub

@@ -1,0 +1,488 @@
+[2025-04-24 17:24:37] Starting security scan...
+[2025-04-24 17:24:37] Checking for weak passwords...
+[2025-04-24 17:24:37] No permission to read /etc/shadow, skipping weak password check
+[2025-04-24 17:24:37] Checking for unauthorized SUID/SGID binaries...
+[2025-04-24 17:24:40] [MEDIUM] Unauthorized SUID binary found: /opt/VBoxGuestAdditions-7.1.4/bin/VBoxDRMClient
+[2025-04-24 17:24:40] [MEDIUM] Unauthorized SUID binary found: /opt/google/chrome/chrome-sandbox
+[2025-04-24 17:24:40] [MEDIUM] Unauthorized SUID binary found: /usr/share/code/chrome-sandbox
+[2025-04-24 17:24:40] [MEDIUM] Unauthorized SUID binary found: /usr/bin/pkexec
+[2025-04-24 17:24:40] [MEDIUM] Unauthorized SUID binary found: /usr/bin/umount
+[2025-04-24 17:24:40] [MEDIUM] Unauthorized SUID binary found: /usr/bin/su
+[2025-04-24 17:24:40] [MEDIUM] Unauthorized SUID binary found: /usr/bin/mount
+[2025-04-24 17:24:40] [MEDIUM] Unauthorized SUID binary found: /usr/bin/ntfs-3g
+[2025-04-24 17:24:40] [MEDIUM] Unauthorized SUID binary found: /usr/bin/fusermount3
+[2025-04-24 17:24:40] [MEDIUM] Unauthorized SUID binary found: /usr/lib/polkit-1/polkit-agent-helper-1
+[2025-04-24 17:24:40] [MEDIUM] Unauthorized SUID binary found: /usr/lib/dbus-1.0/dbus-daemon-launch-helper
+[2025-04-24 17:24:40] [MEDIUM] Unauthorized SUID binary found: /usr/lib/xorg/Xorg.wrap
+[2025-04-24 17:24:40] [MEDIUM] Unauthorized SUID binary found: /usr/lib/openssh/ssh-keysign
+[2025-04-24 17:24:40] [MEDIUM] Unauthorized SUID binary found: /usr/sbin/pppd
+[2025-04-24 17:24:41] [LOW] SGID binary found: /usr/bin/dotlockfile
+[2025-04-24 17:24:41] [LOW] SGID binary found: /usr/bin/crontab
+[2025-04-24 17:24:41] [LOW] SGID binary found: /usr/bin/chage
+[2025-04-24 17:24:41] [LOW] SGID binary found: /usr/bin/ssh-agent
+[2025-04-24 17:24:41] [LOW] SGID binary found: /usr/bin/expiry
+[2025-04-24 17:24:41] [LOW] SGID binary found: /usr/lib/xorg/Xorg.wrap
+[2025-04-24 17:24:41] [LOW] SGID binary found: /usr/sbin/unix_chkpwd
+[2025-04-24 17:24:41] [LOW] SGID binary found: /usr/libexec/camel-lock-helper-1.2
+[2025-04-24 17:24:41] Checking for open ports...
+[2025-04-24 17:24:41] Open ports found:
+[2025-04-24 17:24:41] [LOW] Uncommon port 631 (tcp) is open
+[2025-04-24 17:24:41] [LOW] Uncommon port 8080 (tcp) is open
+[2025-04-24 17:24:41] [LOW] Uncommon port 631 (tcp) is open
+[2025-04-24 17:24:41] Checking for world-writable files...
+[2025-04-24 17:24:41] No world-writable files found
+[2025-04-24 17:24:41] [MEDIUM] World-writable directories found:
+[2025-04-24 17:24:41] [MEDIUM]   - /var/tmp
+[2025-04-24 17:24:41] [MEDIUM]   - /tmp
+[2025-04-24 17:24:41] [MEDIUM]   - /tmp/.X11-unix
+[2025-04-24 17:24:41] [MEDIUM]   - /tmp/.font-unix
+[2025-04-24 17:24:41] [MEDIUM]   - /tmp/.XIM-unix
+[2025-04-24 17:24:41] [MEDIUM]   - /tmp/.ICE-unix
+[2025-04-24 17:24:41] [MEDIUM]   - /run/lock
+[2025-04-24 17:24:41] Checking for unowned files...
+[2025-04-24 17:24:44] No unowned files found
+[2025-04-24 17:24:44] Checking for suspicious cron jobs...
+[2025-04-24 17:24:44] [HIGH] Suspicious cron jobs found in /etc/cron.daily:
+[2025-04-24 17:24:44] [HIGH]   - /etc/cron.daily/google-chrome
+[2025-04-24 17:24:44] Checking for suspicious processes...
+[2025-04-24 17:24:44] No suspicious processes found
+[2025-04-24 17:24:44] Checking SSH configuration...
+[2025-04-24 17:24:44] SSH configuration file not found
+[2025-04-24 17:24:44] Checking for failed login attempts...
+[2025-04-24 17:24:44] Auth log file not found
+[2025-04-24 17:24:44] Checking for rootkits...
+[2025-04-24 17:24:44] chkrootkit not available, skipping rootkit check
+[2025-04-24 17:24:44] rkhunter not available, skipping rootkit check
+[2025-04-24 17:24:44] Checking firewall status...
+[2025-04-24 17:24:44] [MEDIUM] No firewall management tool found (iptables, ufw, firewalld)
+[2025-04-24 17:24:44] Checking for security updates...
+[2025-04-24 17:24:44] No security updates available
+[2025-04-24 17:24:44] Security scan complete.
+[2025-04-24 17:24:44] Issues found: 36 (2 high, 23 medium, 11 low)
+[2025-04-24 17:25:11] Starting security scan...
+[2025-04-24 17:25:11] Checking for weak passwords...
+[2025-04-24 17:25:11] No permission to read /etc/shadow, skipping weak password check
+[2025-04-24 17:25:11] Checking for unauthorized SUID/SGID binaries...
+[2025-04-24 17:25:12] [MEDIUM] Unauthorized SUID binary found: /opt/VBoxGuestAdditions-7.1.4/bin/VBoxDRMClient
+[2025-04-24 17:25:12] [MEDIUM] Unauthorized SUID binary found: /opt/google/chrome/chrome-sandbox
+[2025-04-24 17:25:12] [MEDIUM] Unauthorized SUID binary found: /usr/share/code/chrome-sandbox
+[2025-04-24 17:25:12] [MEDIUM] Unauthorized SUID binary found: /usr/bin/pkexec
+[2025-04-24 17:25:12] [MEDIUM] Unauthorized SUID binary found: /usr/bin/umount
+[2025-04-24 17:25:12] [MEDIUM] Unauthorized SUID binary found: /usr/bin/su
+[2025-04-24 17:25:12] [MEDIUM] Unauthorized SUID binary found: /usr/bin/mount
+[2025-04-24 17:25:12] [MEDIUM] Unauthorized SUID binary found: /usr/bin/ntfs-3g
+[2025-04-24 17:25:12] [MEDIUM] Unauthorized SUID binary found: /usr/bin/fusermount3
+[2025-04-24 17:25:12] [MEDIUM] Unauthorized SUID binary found: /usr/lib/polkit-1/polkit-agent-helper-1
+[2025-04-24 17:25:12] [MEDIUM] Unauthorized SUID binary found: /usr/lib/dbus-1.0/dbus-daemon-launch-helper
+[2025-04-24 17:25:12] [MEDIUM] Unauthorized SUID binary found: /usr/lib/xorg/Xorg.wrap
+[2025-04-24 17:25:12] [MEDIUM] Unauthorized SUID binary found: /usr/lib/openssh/ssh-keysign
+[2025-04-24 17:25:12] [MEDIUM] Unauthorized SUID binary found: /usr/sbin/pppd
+[2025-04-24 17:25:13] [LOW] SGID binary found: /usr/bin/dotlockfile
+[2025-04-24 17:25:13] [LOW] SGID binary found: /usr/bin/crontab
+[2025-04-24 17:25:13] [LOW] SGID binary found: /usr/bin/chage
+[2025-04-24 17:25:13] [LOW] SGID binary found: /usr/bin/ssh-agent
+[2025-04-24 17:25:13] [LOW] SGID binary found: /usr/bin/expiry
+[2025-04-24 17:25:13] [LOW] SGID binary found: /usr/lib/xorg/Xorg.wrap
+[2025-04-24 17:25:13] [LOW] SGID binary found: /usr/sbin/unix_chkpwd
+[2025-04-24 17:25:13] [LOW] SGID binary found: /usr/libexec/camel-lock-helper-1.2
+[2025-04-24 17:25:13] Checking for open ports...
+[2025-04-24 17:25:13] Open ports found:
+[2025-04-24 17:25:13] [LOW] Uncommon port 631 (tcp) is open
+[2025-04-24 17:25:13] [LOW] Uncommon port 8080 (tcp) is open
+[2025-04-24 17:25:13] [LOW] Uncommon port 631 (tcp) is open
+[2025-04-24 17:25:13] Checking for world-writable files...
+[2025-04-24 17:25:13] No world-writable files found
+[2025-04-24 17:25:13] [MEDIUM] World-writable directories found:
+[2025-04-24 17:25:13] [MEDIUM]   - /var/tmp
+[2025-04-24 17:25:13] [MEDIUM]   - /tmp
+[2025-04-24 17:25:13] [MEDIUM]   - /tmp/.X11-unix
+[2025-04-24 17:25:13] [MEDIUM]   - /tmp/.font-unix
+[2025-04-24 17:25:13] [MEDIUM]   - /tmp/.XIM-unix
+[2025-04-24 17:25:13] [MEDIUM]   - /tmp/.ICE-unix
+[2025-04-24 17:25:13] [MEDIUM]   - /run/lock
+[2025-04-24 17:25:13] Checking for unowned files...
+[2025-04-24 17:25:15] No unowned files found
+[2025-04-24 17:25:15] Checking for suspicious cron jobs...
+[2025-04-24 17:25:15] [HIGH] Suspicious cron jobs found in /etc/cron.daily:
+[2025-04-24 17:25:15] [HIGH]   - /etc/cron.daily/google-chrome
+[2025-04-24 17:25:15] Checking for suspicious processes...
+[2025-04-24 17:25:15] No suspicious processes found
+[2025-04-24 17:25:15] Checking SSH configuration...
+[2025-04-24 17:25:15] SSH configuration file not found
+[2025-04-24 17:25:15] Checking for failed login attempts...
+[2025-04-24 17:25:15] Auth log file not found
+[2025-04-24 17:25:15] Checking for rootkits...
+[2025-04-24 17:25:15] chkrootkit not available, skipping rootkit check
+[2025-04-24 17:25:15] rkhunter not available, skipping rootkit check
+[2025-04-24 17:25:15] Checking firewall status...
+[2025-04-24 17:25:15] [MEDIUM] No firewall management tool found (iptables, ufw, firewalld)
+[2025-04-24 17:25:15] Checking for security updates...
+[2025-04-24 17:25:16] No security updates available
+[2025-04-24 17:25:16] Security scan complete.
+[2025-04-24 17:25:16] Issues found: 72 (4 high, 46 medium, 22 low)
+[2025-04-25 12:14:38] Starting security scan...
+[2025-04-25 12:14:38] Checking for weak passwords...
+[2025-04-25 12:14:38] No permission to read /etc/shadow, skipping weak password check
+[2025-04-25 12:14:38] Checking for unauthorized SUID/SGID binaries...
+[2025-04-25 12:14:41] [MEDIUM] Unauthorized SUID binary found: /opt/VBoxGuestAdditions-7.1.4/bin/VBoxDRMClient
+[2025-04-25 12:14:42] [MEDIUM] Unauthorized SUID binary found: /opt/google/chrome/chrome-sandbox
+[2025-04-25 12:14:42] [MEDIUM] Unauthorized SUID binary found: /usr/share/code/chrome-sandbox
+[2025-04-25 12:14:42] [MEDIUM] Unauthorized SUID binary found: /usr/bin/pkexec
+[2025-04-25 12:14:42] [MEDIUM] Unauthorized SUID binary found: /usr/bin/umount
+[2025-04-25 12:14:42] [MEDIUM] Unauthorized SUID binary found: /usr/bin/su
+[2025-04-25 12:14:42] [MEDIUM] Unauthorized SUID binary found: /usr/bin/mount
+[2025-04-25 12:14:42] [MEDIUM] Unauthorized SUID binary found: /usr/bin/ntfs-3g
+[2025-04-25 12:14:42] [MEDIUM] Unauthorized SUID binary found: /usr/bin/fusermount3
+[2025-04-25 12:14:42] [MEDIUM] Unauthorized SUID binary found: /usr/lib/polkit-1/polkit-agent-helper-1
+[2025-04-25 12:14:42] [MEDIUM] Unauthorized SUID binary found: /usr/lib/dbus-1.0/dbus-daemon-launch-helper
+[2025-04-25 12:14:42] [MEDIUM] Unauthorized SUID binary found: /usr/lib/xorg/Xorg.wrap
+[2025-04-25 12:14:42] [MEDIUM] Unauthorized SUID binary found: /usr/lib/openssh/ssh-keysign
+[2025-04-25 12:14:42] [MEDIUM] Unauthorized SUID binary found: /usr/sbin/pppd
+[2025-04-25 12:14:42] [LOW] SGID binary found: /usr/bin/dotlockfile
+[2025-04-25 12:14:42] [LOW] SGID binary found: /usr/bin/crontab
+[2025-04-25 12:14:42] [LOW] SGID binary found: /usr/bin/chage
+[2025-04-25 12:14:42] [LOW] SGID binary found: /usr/bin/ssh-agent
+[2025-04-25 12:14:42] [LOW] SGID binary found: /usr/bin/expiry
+[2025-04-25 12:14:42] [LOW] SGID binary found: /usr/lib/xorg/Xorg.wrap
+[2025-04-25 12:14:42] [LOW] SGID binary found: /usr/sbin/unix_chkpwd
+[2025-04-25 12:14:42] [LOW] SGID binary found: /usr/libexec/camel-lock-helper-1.2
+[2025-04-25 12:14:42] Checking for open ports...
+[2025-04-25 12:14:42] Open ports found:
+[2025-04-25 12:14:42] [LOW] Uncommon port 631 (tcp) is open
+[2025-04-25 12:14:42] [LOW] Uncommon port 8080 (tcp) is open
+[2025-04-25 12:14:42] [LOW] Uncommon port 631 (tcp) is open
+[2025-04-25 12:14:42] Checking for world-writable files...
+[2025-04-25 12:14:43] No world-writable files found
+[2025-04-25 12:14:43] [MEDIUM] World-writable directories found:
+[2025-04-25 12:14:43] [MEDIUM]   - /var/tmp
+[2025-04-25 12:14:43] [MEDIUM]   - /tmp
+[2025-04-25 12:14:43] [MEDIUM]   - /tmp/.X11-unix
+[2025-04-25 12:14:43] [MEDIUM]   - /tmp/.font-unix
+[2025-04-25 12:14:43] [MEDIUM]   - /tmp/.XIM-unix
+[2025-04-25 12:14:43] [MEDIUM]   - /tmp/.ICE-unix
+[2025-04-25 12:14:43] [MEDIUM]   - /run/lock
+[2025-04-25 12:14:43] Checking for unowned files...
+[2025-04-25 12:14:45] No unowned files found
+[2025-04-25 12:14:45] Checking for suspicious cron jobs...
+[2025-04-25 12:14:45] [HIGH] Suspicious cron jobs found in /etc/cron.daily:
+[2025-04-25 12:14:45] [HIGH]   - /etc/cron.daily/google-chrome
+[2025-04-25 12:14:45] Checking for suspicious processes...
+[2025-04-25 12:14:45] No suspicious processes found
+[2025-04-25 12:14:45] Checking SSH configuration...
+[2025-04-25 12:14:45] SSH configuration file not found
+[2025-04-25 12:14:45] Checking for failed login attempts...
+[2025-04-25 12:14:45] Auth log file not found
+[2025-04-25 12:14:45] Checking for rootkits...
+[2025-04-25 12:14:45] chkrootkit not available, skipping rootkit check
+[2025-04-25 12:14:45] rkhunter not available, skipping rootkit check
+[2025-04-25 12:14:45] Checking firewall status...
+[2025-04-25 12:14:45] [MEDIUM] No firewall management tool found (iptables, ufw, firewalld)
+[2025-04-25 12:14:45] Checking for security updates...
+[2025-04-25 12:14:45] No security updates available
+[2025-04-25 12:14:45] Security scan complete.
+[2025-04-25 12:14:45] Issues found: 108 (6 high, 69 medium, 33 low)
+[2025-04-25 12:14:49] Starting security scan...
+[2025-04-25 12:14:49] Checking for weak passwords...
+[2025-04-25 12:14:49] No permission to read /etc/shadow, skipping weak password check
+[2025-04-25 12:14:49] Checking for unauthorized SUID/SGID binaries...
+[2025-04-25 12:14:49] [MEDIUM] Unauthorized SUID binary found: /opt/VBoxGuestAdditions-7.1.4/bin/VBoxDRMClient
+[2025-04-25 12:14:49] [MEDIUM] Unauthorized SUID binary found: /opt/google/chrome/chrome-sandbox
+[2025-04-25 12:14:49] [MEDIUM] Unauthorized SUID binary found: /usr/share/code/chrome-sandbox
+[2025-04-25 12:14:49] [MEDIUM] Unauthorized SUID binary found: /usr/bin/pkexec
+[2025-04-25 12:14:49] [MEDIUM] Unauthorized SUID binary found: /usr/bin/umount
+[2025-04-25 12:14:49] [MEDIUM] Unauthorized SUID binary found: /usr/bin/su
+[2025-04-25 12:14:49] [MEDIUM] Unauthorized SUID binary found: /usr/bin/mount
+[2025-04-25 12:14:49] [MEDIUM] Unauthorized SUID binary found: /usr/bin/ntfs-3g
+[2025-04-25 12:14:49] [MEDIUM] Unauthorized SUID binary found: /usr/bin/fusermount3
+[2025-04-25 12:14:49] [MEDIUM] Unauthorized SUID binary found: /usr/lib/polkit-1/polkit-agent-helper-1
+[2025-04-25 12:14:49] [MEDIUM] Unauthorized SUID binary found: /usr/lib/dbus-1.0/dbus-daemon-launch-helper
+[2025-04-25 12:14:49] [MEDIUM] Unauthorized SUID binary found: /usr/lib/xorg/Xorg.wrap
+[2025-04-25 12:14:49] [MEDIUM] Unauthorized SUID binary found: /usr/lib/openssh/ssh-keysign
+[2025-04-25 12:14:49] [MEDIUM] Unauthorized SUID binary found: /usr/sbin/pppd
+[2025-04-25 12:14:50] [LOW] SGID binary found: /usr/bin/dotlockfile
+[2025-04-25 12:14:50] [LOW] SGID binary found: /usr/bin/crontab
+[2025-04-25 12:14:50] [LOW] SGID binary found: /usr/bin/chage
+[2025-04-25 12:14:50] [LOW] SGID binary found: /usr/bin/ssh-agent
+[2025-04-25 12:14:50] [LOW] SGID binary found: /usr/bin/expiry
+[2025-04-25 12:14:50] [LOW] SGID binary found: /usr/lib/xorg/Xorg.wrap
+[2025-04-25 12:14:50] [LOW] SGID binary found: /usr/sbin/unix_chkpwd
+[2025-04-25 12:14:50] [LOW] SGID binary found: /usr/libexec/camel-lock-helper-1.2
+[2025-04-25 12:14:50] Checking for open ports...
+[2025-04-25 12:14:50] Open ports found:
+[2025-04-25 12:14:50] [LOW] Uncommon port 631 (tcp) is open
+[2025-04-25 12:14:50] [LOW] Uncommon port 8080 (tcp) is open
+[2025-04-25 12:14:50] [LOW] Uncommon port 631 (tcp) is open
+[2025-04-25 12:14:50] Checking for world-writable files...
+[2025-04-25 12:14:51] No world-writable files found
+[2025-04-25 12:14:51] [MEDIUM] World-writable directories found:
+[2025-04-25 12:14:51] [MEDIUM]   - /var/tmp
+[2025-04-25 12:14:51] [MEDIUM]   - /tmp
+[2025-04-25 12:14:51] [MEDIUM]   - /tmp/.X11-unix
+[2025-04-25 12:14:51] [MEDIUM]   - /tmp/.font-unix
+[2025-04-25 12:14:51] [MEDIUM]   - /tmp/.XIM-unix
+[2025-04-25 12:14:51] [MEDIUM]   - /tmp/.ICE-unix
+[2025-04-25 12:14:51] [MEDIUM]   - /run/lock
+[2025-04-25 12:14:51] Checking for unowned files...
+[2025-04-25 12:14:53] No unowned files found
+[2025-04-25 12:14:53] Checking for suspicious cron jobs...
+[2025-04-25 12:14:53] [HIGH] Suspicious cron jobs found in /etc/cron.daily:
+[2025-04-25 12:14:53] [HIGH]   - /etc/cron.daily/google-chrome
+[2025-04-25 12:14:53] Checking for suspicious processes...
+[2025-04-25 12:14:53] No suspicious processes found
+[2025-04-25 12:14:53] Checking SSH configuration...
+[2025-04-25 12:14:53] SSH configuration file not found
+[2025-04-25 12:14:53] Checking for failed login attempts...
+[2025-04-25 12:14:53] Auth log file not found
+[2025-04-25 12:14:53] Checking for rootkits...
+[2025-04-25 12:14:53] chkrootkit not available, skipping rootkit check
+[2025-04-25 12:14:53] rkhunter not available, skipping rootkit check
+[2025-04-25 12:14:53] Checking firewall status...
+[2025-04-25 12:14:53] [MEDIUM] No firewall management tool found (iptables, ufw, firewalld)
+[2025-04-25 12:14:53] Checking for security updates...
+[2025-04-25 12:14:53] No security updates available
+[2025-04-25 12:14:53] Security scan complete.
+[2025-04-25 12:14:53] Issues found: 144 (8 high, 92 medium, 44 low)
+[2025-04-25 12:16:10] Starting security scan...
+[2025-04-25 12:16:10] Checking for weak passwords...
+[2025-04-25 12:16:10] No permission to read /etc/shadow, skipping weak password check
+[2025-04-25 12:16:10] Checking for unauthorized SUID/SGID binaries...
+[2025-04-25 12:16:11] [MEDIUM] Unauthorized SUID binary found: /opt/VBoxGuestAdditions-7.1.4/bin/VBoxDRMClient
+[2025-04-25 12:16:11] [MEDIUM] Unauthorized SUID binary found: /opt/google/chrome/chrome-sandbox
+[2025-04-25 12:16:11] [MEDIUM] Unauthorized SUID binary found: /usr/share/code/chrome-sandbox
+[2025-04-25 12:16:11] [MEDIUM] Unauthorized SUID binary found: /usr/bin/pkexec
+[2025-04-25 12:16:11] [MEDIUM] Unauthorized SUID binary found: /usr/bin/umount
+[2025-04-25 12:16:11] [MEDIUM] Unauthorized SUID binary found: /usr/bin/su
+[2025-04-25 12:16:11] [MEDIUM] Unauthorized SUID binary found: /usr/bin/mount
+[2025-04-25 12:16:11] [MEDIUM] Unauthorized SUID binary found: /usr/bin/ntfs-3g
+[2025-04-25 12:16:11] [MEDIUM] Unauthorized SUID binary found: /usr/bin/fusermount3
+[2025-04-25 12:16:11] [MEDIUM] Unauthorized SUID binary found: /usr/lib/polkit-1/polkit-agent-helper-1
+[2025-04-25 12:16:11] [MEDIUM] Unauthorized SUID binary found: /usr/lib/dbus-1.0/dbus-daemon-launch-helper
+[2025-04-25 12:16:11] [MEDIUM] Unauthorized SUID binary found: /usr/lib/xorg/Xorg.wrap
+[2025-04-25 12:16:11] [MEDIUM] Unauthorized SUID binary found: /usr/lib/openssh/ssh-keysign
+[2025-04-25 12:16:11] [MEDIUM] Unauthorized SUID binary found: /usr/sbin/pppd
+[2025-04-25 12:16:11] [LOW] SGID binary found: /usr/bin/dotlockfile
+[2025-04-25 12:16:11] [LOW] SGID binary found: /usr/bin/crontab
+[2025-04-25 12:16:11] [LOW] SGID binary found: /usr/bin/chage
+[2025-04-25 12:16:11] [LOW] SGID binary found: /usr/bin/ssh-agent
+[2025-04-25 12:16:11] [LOW] SGID binary found: /usr/bin/expiry
+[2025-04-25 12:16:11] [LOW] SGID binary found: /usr/lib/xorg/Xorg.wrap
+[2025-04-25 12:16:11] [LOW] SGID binary found: /usr/sbin/unix_chkpwd
+[2025-04-25 12:16:11] [LOW] SGID binary found: /usr/libexec/camel-lock-helper-1.2
+[2025-04-25 12:16:11] Checking for open ports...
+[2025-04-25 12:16:11] Open ports found:
+[2025-04-25 12:16:11] [LOW] Uncommon port 631 (tcp) is open
+[2025-04-25 12:16:11] [LOW] Uncommon port 8080 (tcp) is open
+[2025-04-25 12:16:11] [LOW] Uncommon port 631 (tcp) is open
+[2025-04-25 12:16:11] Checking for world-writable files...
+[2025-04-25 12:16:12] No world-writable files found
+[2025-04-25 12:16:12] [MEDIUM] World-writable directories found:
+[2025-04-25 12:16:12] [MEDIUM]   - /var/tmp
+[2025-04-25 12:16:12] [MEDIUM]   - /tmp
+[2025-04-25 12:16:12] [MEDIUM]   - /tmp/.X11-unix
+[2025-04-25 12:16:12] [MEDIUM]   - /tmp/.font-unix
+[2025-04-25 12:16:12] [MEDIUM]   - /tmp/.XIM-unix
+[2025-04-25 12:16:12] [MEDIUM]   - /tmp/.ICE-unix
+[2025-04-25 12:16:12] [MEDIUM]   - /run/lock
+[2025-04-25 12:16:12] Checking for unowned files...
+[2025-04-25 12:16:14] No unowned files found
+[2025-04-25 12:16:14] Checking for suspicious cron jobs...
+[2025-04-25 12:16:14] [HIGH] Suspicious cron jobs found in /etc/cron.daily:
+[2025-04-25 12:16:14] [HIGH]   - /etc/cron.daily/google-chrome
+[2025-04-25 12:16:14] Checking for suspicious processes...
+[2025-04-25 12:16:14] No suspicious processes found
+[2025-04-25 12:16:14] Checking SSH configuration...
+[2025-04-25 12:16:14] SSH configuration file not found
+[2025-04-25 12:16:14] Checking for failed login attempts...
+[2025-04-25 12:16:14] Auth log file not found
+[2025-04-25 12:16:14] Checking for rootkits...
+[2025-04-25 12:16:14] chkrootkit not available, skipping rootkit check
+[2025-04-25 12:16:14] rkhunter not available, skipping rootkit check
+[2025-04-25 12:16:14] Checking firewall status...
+[2025-04-25 12:16:14] [MEDIUM] No firewall management tool found (iptables, ufw, firewalld)
+[2025-04-25 12:16:14] Checking for security updates...
+[2025-04-25 12:16:14] No security updates available
+[2025-04-25 12:16:14] Security scan complete.
+[2025-04-25 12:16:14] Issues found: 180 (10 high, 115 medium, 55 low)
+[2025-04-25 12:17:54] Starting security scan...
+[2025-04-25 12:17:54] Checking for weak passwords...
+[2025-04-25 12:17:54] No permission to read /etc/shadow, skipping weak password check
+[2025-04-25 12:17:54] Checking for unauthorized SUID/SGID binaries...
+[2025-04-25 12:17:55] [MEDIUM] Unauthorized SUID binary found: /opt/VBoxGuestAdditions-7.1.4/bin/VBoxDRMClient
+[2025-04-25 12:17:55] [MEDIUM] Unauthorized SUID binary found: /opt/google/chrome/chrome-sandbox
+[2025-04-25 12:17:55] [MEDIUM] Unauthorized SUID binary found: /usr/share/code/chrome-sandbox
+[2025-04-25 12:17:55] [MEDIUM] Unauthorized SUID binary found: /usr/bin/pkexec
+[2025-04-25 12:17:55] [MEDIUM] Unauthorized SUID binary found: /usr/bin/umount
+[2025-04-25 12:17:55] [MEDIUM] Unauthorized SUID binary found: /usr/bin/su
+[2025-04-25 12:17:55] [MEDIUM] Unauthorized SUID binary found: /usr/bin/mount
+[2025-04-25 12:17:55] [MEDIUM] Unauthorized SUID binary found: /usr/bin/ntfs-3g
+[2025-04-25 12:17:55] [MEDIUM] Unauthorized SUID binary found: /usr/bin/fusermount3
+[2025-04-25 12:17:55] [MEDIUM] Unauthorized SUID binary found: /usr/lib/polkit-1/polkit-agent-helper-1
+[2025-04-25 12:17:55] [MEDIUM] Unauthorized SUID binary found: /usr/lib/dbus-1.0/dbus-daemon-launch-helper
+[2025-04-25 12:17:55] [MEDIUM] Unauthorized SUID binary found: /usr/lib/xorg/Xorg.wrap
+[2025-04-25 12:17:55] [MEDIUM] Unauthorized SUID binary found: /usr/lib/openssh/ssh-keysign
+[2025-04-25 12:17:55] [MEDIUM] Unauthorized SUID binary found: /usr/sbin/pppd
+[2025-04-25 12:17:56] [LOW] SGID binary found: /usr/bin/dotlockfile
+[2025-04-25 12:17:56] [LOW] SGID binary found: /usr/bin/crontab
+[2025-04-25 12:17:56] [LOW] SGID binary found: /usr/bin/chage
+[2025-04-25 12:17:56] [LOW] SGID binary found: /usr/bin/ssh-agent
+[2025-04-25 12:17:56] [LOW] SGID binary found: /usr/bin/expiry
+[2025-04-25 12:17:56] [LOW] SGID binary found: /usr/lib/xorg/Xorg.wrap
+[2025-04-25 12:17:56] [LOW] SGID binary found: /usr/sbin/unix_chkpwd
+[2025-04-25 12:17:56] [LOW] SGID binary found: /usr/libexec/camel-lock-helper-1.2
+[2025-04-25 12:17:56] Checking for open ports...
+[2025-04-25 12:17:56] Open ports found:
+[2025-04-25 12:17:56] [LOW] Uncommon port 631 (tcp) is open
+[2025-04-25 12:17:56] [LOW] Uncommon port 8080 (tcp) is open
+[2025-04-25 12:17:56] [LOW] Uncommon port 631 (tcp) is open
+[2025-04-25 12:17:56] Checking for world-writable files...
+[2025-04-25 12:17:56] No world-writable files found
+[2025-04-25 12:17:56] [MEDIUM] World-writable directories found:
+[2025-04-25 12:17:56] [MEDIUM]   - /var/tmp
+[2025-04-25 12:17:56] [MEDIUM]   - /tmp
+[2025-04-25 12:17:56] [MEDIUM]   - /tmp/.X11-unix
+[2025-04-25 12:17:56] [MEDIUM]   - /tmp/.font-unix
+[2025-04-25 12:17:56] [MEDIUM]   - /tmp/.XIM-unix
+[2025-04-25 12:17:56] [MEDIUM]   - /tmp/.ICE-unix
+[2025-04-25 12:17:56] [MEDIUM]   - /run/lock
+[2025-04-25 12:17:56] Checking for unowned files...
+[2025-04-25 12:17:58] No unowned files found
+[2025-04-25 12:17:58] Checking for suspicious cron jobs...
+[2025-04-25 12:17:58] [HIGH] Suspicious cron jobs found in /etc/cron.daily:
+[2025-04-25 12:17:58] [HIGH]   - /etc/cron.daily/google-chrome
+[2025-04-25 12:17:58] Checking for suspicious processes...
+[2025-04-25 12:17:58] No suspicious processes found
+[2025-04-25 12:17:58] Checking SSH configuration...
+[2025-04-25 12:17:58] SSH configuration file not found
+[2025-04-25 12:17:58] Checking for failed login attempts...
+[2025-04-25 12:17:58] Auth log file not found
+[2025-04-25 12:17:58] Checking for rootkits...
+[2025-04-25 12:17:58] chkrootkit not available, skipping rootkit check
+[2025-04-25 12:17:58] rkhunter not available, skipping rootkit check
+[2025-04-25 12:17:58] Checking firewall status...
+[2025-04-25 12:17:58] [MEDIUM] No firewall management tool found (iptables, ufw, firewalld)
+[2025-04-25 12:17:58] Checking for security updates...
+[2025-04-25 12:17:59] No security updates available
+[2025-04-25 12:17:59] Security scan complete.
+[2025-04-25 12:17:59] Issues found: 216 (12 high, 138 medium, 66 low)
+[2025-04-25 12:20:13] Starting security scan...
+[2025-04-25 12:20:13] Checking for weak passwords...
+[2025-04-25 12:20:13] No permission to read /etc/shadow, skipping weak password check
+[2025-04-25 12:20:13] Checking for unauthorized SUID/SGID binaries...
+[2025-04-25 12:20:14] [MEDIUM] Unauthorized SUID binary found: /opt/VBoxGuestAdditions-7.1.4/bin/VBoxDRMClient
+[2025-04-25 12:20:14] [MEDIUM] Unauthorized SUID binary found: /opt/google/chrome/chrome-sandbox
+[2025-04-25 12:20:14] [MEDIUM] Unauthorized SUID binary found: /usr/share/code/chrome-sandbox
+[2025-04-25 12:20:14] [MEDIUM] Unauthorized SUID binary found: /usr/bin/pkexec
+[2025-04-25 12:20:14] [MEDIUM] Unauthorized SUID binary found: /usr/bin/umount
+[2025-04-25 12:20:14] [MEDIUM] Unauthorized SUID binary found: /usr/bin/su
+[2025-04-25 12:20:14] [MEDIUM] Unauthorized SUID binary found: /usr/bin/mount
+[2025-04-25 12:20:14] [MEDIUM] Unauthorized SUID binary found: /usr/bin/ntfs-3g
+[2025-04-25 12:20:14] [MEDIUM] Unauthorized SUID binary found: /usr/bin/fusermount3
+[2025-04-25 12:20:14] [MEDIUM] Unauthorized SUID binary found: /usr/lib/polkit-1/polkit-agent-helper-1
+[2025-04-25 12:20:14] [MEDIUM] Unauthorized SUID binary found: /usr/lib/dbus-1.0/dbus-daemon-launch-helper
+[2025-04-25 12:20:14] [MEDIUM] Unauthorized SUID binary found: /usr/lib/xorg/Xorg.wrap
+[2025-04-25 12:20:14] [MEDIUM] Unauthorized SUID binary found: /usr/lib/openssh/ssh-keysign
+[2025-04-25 12:20:14] [MEDIUM] Unauthorized SUID binary found: /usr/sbin/pppd
+[2025-04-25 12:20:15] [LOW] SGID binary found: /usr/bin/dotlockfile
+[2025-04-25 12:20:15] [LOW] SGID binary found: /usr/bin/crontab
+[2025-04-25 12:20:15] [LOW] SGID binary found: /usr/bin/chage
+[2025-04-25 12:20:15] [LOW] SGID binary found: /usr/bin/ssh-agent
+[2025-04-25 12:20:15] [LOW] SGID binary found: /usr/bin/expiry
+[2025-04-25 12:20:15] [LOW] SGID binary found: /usr/lib/xorg/Xorg.wrap
+[2025-04-25 12:20:15] [LOW] SGID binary found: /usr/sbin/unix_chkpwd
+[2025-04-25 12:20:15] [LOW] SGID binary found: /usr/libexec/camel-lock-helper-1.2
+[2025-04-25 12:20:15] Checking for open ports...
+[2025-04-25 12:20:15] Open ports found:
+[2025-04-25 12:20:15] [LOW] Uncommon port 631 (tcp) is open
+[2025-04-25 12:20:15] [LOW] Uncommon port 8080 (tcp) is open
+[2025-04-25 12:20:15] [LOW] Uncommon port 631 (tcp) is open
+[2025-04-25 12:20:15] Checking for world-writable files...
+[2025-04-25 12:20:15] No world-writable files found
+[2025-04-25 12:20:15] [MEDIUM] World-writable directories found:
+[2025-04-25 12:20:15] [MEDIUM]   - /var/tmp
+[2025-04-25 12:20:15] [MEDIUM]   - /tmp
+[2025-04-25 12:20:15] [MEDIUM]   - /tmp/.X11-unix
+[2025-04-25 12:20:15] [MEDIUM]   - /tmp/.font-unix
+[2025-04-25 12:20:15] [MEDIUM]   - /tmp/.XIM-unix
+[2025-04-25 12:20:15] [MEDIUM]   - /tmp/.ICE-unix
+[2025-04-25 12:20:15] [MEDIUM]   - /run/lock
+[2025-04-25 12:20:15] Checking for unowned files...
+[2025-04-25 12:20:17] No unowned files found
+[2025-04-25 12:20:17] Checking for suspicious cron jobs...
+[2025-04-25 12:20:17] [HIGH] Suspicious cron jobs found in /etc/cron.daily:
+[2025-04-25 12:20:17] [HIGH]   - /etc/cron.daily/google-chrome
+[2025-04-25 12:20:17] Checking for suspicious processes...
+[2025-04-25 12:20:17] No suspicious processes found
+[2025-04-25 12:20:17] Checking SSH configuration...
+[2025-04-25 12:20:17] SSH configuration file not found
+[2025-04-25 12:20:17] Checking for failed login attempts...
+[2025-04-25 12:20:17] Auth log file not found
+[2025-04-25 12:20:17] Checking for rootkits...
+[2025-04-25 12:20:17] chkrootkit not available, skipping rootkit check
+[2025-04-25 12:20:17] rkhunter not available, skipping rootkit check
+[2025-04-25 12:20:17] Checking firewall status...
+[2025-04-25 12:20:17] [MEDIUM] No firewall management tool found (iptables, ufw, firewalld)
+[2025-04-25 12:20:17] Checking for security updates...
+[2025-04-25 12:20:18] No security updates available
+[2025-04-25 12:20:18] Security scan complete.
+[2025-04-25 12:20:18] Issues found: 252 (14 high, 161 medium, 77 low)
+[2025-04-25 12:39:41] Starting security scan...
+[2025-04-25 12:39:41] Checking for weak passwords...
+[2025-04-25 12:39:41] No permission to read /etc/shadow, skipping weak password check
+[2025-04-25 12:39:41] Checking for unauthorized SUID/SGID binaries...
+[2025-04-25 12:39:42] [MEDIUM] Unauthorized SUID binary found: /opt/VBoxGuestAdditions-7.1.4/bin/VBoxDRMClient
+[2025-04-25 12:39:42] [MEDIUM] Unauthorized SUID binary found: /opt/google/chrome/chrome-sandbox
+[2025-04-25 12:39:42] [MEDIUM] Unauthorized SUID binary found: /usr/share/code/chrome-sandbox
+[2025-04-25 12:39:42] [MEDIUM] Unauthorized SUID binary found: /usr/bin/pkexec
+[2025-04-25 12:39:42] [MEDIUM] Unauthorized SUID binary found: /usr/bin/umount
+[2025-04-25 12:39:42] [MEDIUM] Unauthorized SUID binary found: /usr/bin/su
+[2025-04-25 12:39:42] [MEDIUM] Unauthorized SUID binary found: /usr/bin/mount
+[2025-04-25 12:39:42] [MEDIUM] Unauthorized SUID binary found: /usr/bin/ntfs-3g
+[2025-04-25 12:39:42] [MEDIUM] Unauthorized SUID binary found: /usr/bin/fusermount3
+[2025-04-25 12:39:42] [MEDIUM] Unauthorized SUID binary found: /usr/lib/polkit-1/polkit-agent-helper-1
+[2025-04-25 12:39:42] [MEDIUM] Unauthorized SUID binary found: /usr/lib/dbus-1.0/dbus-daemon-launch-helper
+[2025-04-25 12:39:42] [MEDIUM] Unauthorized SUID binary found: /usr/lib/xorg/Xorg.wrap
+[2025-04-25 12:39:42] [MEDIUM] Unauthorized SUID binary found: /usr/lib/openssh/ssh-keysign
+[2025-04-25 12:39:42] [MEDIUM] Unauthorized SUID binary found: /usr/sbin/pppd
+[2025-04-25 12:39:42] [LOW] SGID binary found: /usr/bin/dotlockfile
+[2025-04-25 12:39:42] [LOW] SGID binary found: /usr/bin/crontab
+[2025-04-25 12:39:42] [LOW] SGID binary found: /usr/bin/chage
+[2025-04-25 12:39:42] [LOW] SGID binary found: /usr/bin/ssh-agent
+[2025-04-25 12:39:42] [LOW] SGID binary found: /usr/bin/expiry
+[2025-04-25 12:39:42] [LOW] SGID binary found: /usr/lib/xorg/Xorg.wrap
+[2025-04-25 12:39:42] [LOW] SGID binary found: /usr/sbin/unix_chkpwd
+[2025-04-25 12:39:42] [LOW] SGID binary found: /usr/libexec/camel-lock-helper-1.2
+[2025-04-25 12:39:42] Checking for open ports...
+[2025-04-25 12:39:42] Open ports found:
+[2025-04-25 12:39:42] [LOW] Uncommon port 631 (tcp) is open
+[2025-04-25 12:39:42] [LOW] Uncommon port 8080 (tcp) is open
+[2025-04-25 12:39:42] [LOW] Uncommon port 631 (tcp) is open
+[2025-04-25 12:39:42] Checking for world-writable files...
+[2025-04-25 12:39:43] No world-writable files found
+[2025-04-25 12:39:43] [MEDIUM] World-writable directories found:
+[2025-04-25 12:39:43] [MEDIUM]   - /var/tmp
+[2025-04-25 12:39:43] [MEDIUM]   - /tmp
+[2025-04-25 12:39:43] [MEDIUM]   - /tmp/.X11-unix
+[2025-04-25 12:39:43] [MEDIUM]   - /tmp/.font-unix
+[2025-04-25 12:39:43] [MEDIUM]   - /tmp/.XIM-unix
+[2025-04-25 12:39:43] [MEDIUM]   - /tmp/.ICE-unix
+[2025-04-25 12:39:43] [MEDIUM]   - /run/lock
+[2025-04-25 12:39:43] Checking for unowned files...
+[2025-04-25 12:39:45] No unowned files found
+[2025-04-25 12:39:45] Checking for suspicious cron jobs...
+[2025-04-25 12:39:45] [HIGH] Suspicious cron jobs found in /etc/cron.daily:
+[2025-04-25 12:39:45] [HIGH]   - /etc/cron.daily/google-chrome
+[2025-04-25 12:39:45] Checking for suspicious processes...
+[2025-04-25 12:39:45] No suspicious processes found
+[2025-04-25 12:39:45] Checking SSH configuration...
+[2025-04-25 12:39:45] SSH configuration file not found
+[2025-04-25 12:39:45] Checking for failed login attempts...
+[2025-04-25 12:39:45] Auth log file not found
+[2025-04-25 12:39:45] Checking for rootkits...
+[2025-04-25 12:39:45] chkrootkit not available, skipping rootkit check
+[2025-04-25 12:39:45] rkhunter not available, skipping rootkit check
+[2025-04-25 12:39:45] Checking firewall status...
+[2025-04-25 12:39:45] [MEDIUM] No firewall management tool found (iptables, ufw, firewalld)
+[2025-04-25 12:39:45] Checking for security updates...
+[2025-04-25 12:39:45] No security updates available
+[2025-04-25 12:39:45] Security scan complete.
+[2025-04-25 12:39:45] Issues found: 288 (16 high, 184 medium, 88 low)

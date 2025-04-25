@@ -1,0 +1,16 @@
+EmployeeID,FirstName,LastName,Position,Department,HireDate,Salary,Manager,Email,Phone,Address,City,State,ZipCode,Country,BirthDate,Gender,EducationLevel,PerformanceRating,BonusPercentage
+SR001,Daniel,Clark,Sales Representative,Sales,2020-03-15,65000,M001,daniel.c@company.com,555-111-2222,123 Sales St,New York,NY,10001,USA,1985-06-12,Male,Bachelor,4.2,0.08
+SR002,Amanda,Lewis,Sales Representative,Sales,2019-07-22,68000,M001,amanda.l@company.com,555-222-3333,456 Market Ave,Los Angeles,CA,90001,USA,1988-09-28,Female,Master,4.5,0.1
+SR003,Brian,Walker,Sales Representative,Sales,2021-01-10,62000,M001,brian.w@company.com,555-333-4444,789 Commerce Rd,Chicago,IL,60007,USA,1990-03-15,Male,Bachelor,3.8,0.06
+SR004,Michelle,Hall,Sales Representative,Sales,2018-11-05,72000,M002,michelle.h@company.com,555-444-5555,101 Trade Dr,Houston,TX,77001,USA,1983-12-07,Female,Bachelor,4.7,0.12
+SR005,Kevin,Allen,Sales Representative,Sales,2022-02-18,60000,M002,kevin.a@company.com,555-555-6666,202 Business Ln,Phoenix,AZ,85001,USA,1992-05-20,Male,Associate,3.5,0.05
+SR006,Laura,Young,Sales Representative,Sales,2020-08-30,66000,M002,laura.y@company.com,555-666-7777,303 Retail Blvd,Philadelphia,PA,19019,USA,1987-11-11,Female,Bachelor,4.0,0.07
+SR007,Christopher,King,Sales Representative,Sales,2019-05-12,69000,M003,chris.k@company.com,555-777-8888,404 Consumer St,San Antonio,TX,78201,USA,1984-08-23,Male,Master,4.3,0.09
+SR008,Stephanie,Wright,Sales Representative,Sales,2021-09-08,63000,M003,steph.w@company.com,555-888-9999,505 Purchase Ave,San Diego,CA,92101,USA,1991-02-14,Female,Bachelor,3.9,0.06
+SR009,Jason,Scott,Sales Representative,Sales,2018-06-20,73000,M003,jason.s@company.com,555-999-0000,606 Client Rd,Dallas,TX,75201,USA,1982-10-05,Male,Bachelor,4.8,0.13
+SR010,Nicole,Green,Sales Representative,Sales,2022-04-03,61000,M003,nicole.g@company.com,555-000-1111,707 Customer Dr,San Jose,CA,95101,USA,1993-07-30,Female,Bachelor,3.6,0.05
+M001,Robert,Johnson,Sales Manager,Sales,2015-05-10,95000,D001,robert.j@company.com,555-123-4567,123 Manager St,New York,NY,10001,USA,1978-04-15,Male,Master,4.6,0.15
+M002,Jennifer,Thompson,Sales Manager,Sales,2016-08-22,92000,D001,jennifer.t@company.com,555-234-5678,456 Director Ave,Los Angeles,CA,90001,USA,1980-11-28,Female,Master,4.4,0.14
+M003,Michael,Harris,Sales Manager,Sales,2014-03-15,98000,D001,michael.h@company.com,555-345-6789,789 Executive Rd,Chicago,IL,60007,USA,1975-06-10,Male,PhD,4.7,0.16
+D001,Elizabeth,Martinez,Sales Director,Executive,2010-07-12,150000,CEO,elizabeth.m@company.com,555-456-7890,101 Leadership Dr,Houston,TX,77001,USA,1970-09-05,Female,MBA,4.9,0.25
+CEO,William,Brown,Chief Executive Officer,Executive,2005-01-15,250000,,william.b@company.com,555-567-8901,1 Corporate Plaza,Phoenix,AZ,85001,USA,1965-03-20,Male,MBA,5.0,0.4

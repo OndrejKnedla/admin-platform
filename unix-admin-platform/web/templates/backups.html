@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unix Admin Platform - Backups</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <header>
+        <h1>Unix System Administration Platform</h1>
+    </header>
+    <nav>
+        <a href="/">Dashboard</a>
+        <a href="/system">System</a>
+        <a href="/monitoring">Monitoring</a>
+        <a href="/security">Security</a>
+        <a href="/backups" class="active">Backups</a>
+    </nav>
+    <main>
+        <h2>Backup Management</h2>
+        
+        <div class="action-bar">
+            <button id="run-backup" class="btn btn-primary">Run Backup Now</button>
+            <span class="last-run">Last backup: {{last_backup_time}}</span>
+        </div>
+        
+        <div class="card">
+            <h3>Backup Status</h3>
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="label">Last Backup:</span>
+                    <span class="value">{{last_backup_time}}</span>
+                </div>
+                <div class="info-item">
+                    <span class="label">Backup Location:</span>
+                    <span class="value">{{backup_location}}</span>
+                </div>
+                <div class="info-item">
+                    <span class="label">Directories Backed Up:</span>
+                    <span class="value">{{backup_dirs}}</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h3>Available Backups</h3>
+            <div class="backups-list">
+                <div class="backup header">
+                    <span class="id">Backup ID</span>
+                    <span class="date">Date</span>
+                    <span class="size">Size</span>
+                    <span class="actions">Actions</span>
+                </div>
+                {{backups_list}}
+            </div>
+        </div>
+        
+        <div class="card">
+            <h3>Restore Backup</h3>
+            <div class="restore-form">
+                <div class="form-group">
+                    <label for="backup-id">Backup ID:</label>
+                    <select id="backup-id">
+                        <option value="">Select a backup</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="restore-path">Restore Path:</label>
+                    <input type="text" id="restore-path" placeholder="/path/to/restore">
+                </div>
+                <button id="restore-backup" class="btn btn-warning">Restore Backup</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Unix System Administration Platform | Current Time: {{current_time}}</p>
+    </footer>
+    
+    <script src="/static/backups.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+[2025-04-24 17:27:49] Creating backup...
+[2025-04-24 17:27:49] Saving system information...
+[2025-04-24 17:27:49] Backing up directory: /etc
+[2025-04-24 17:27:49] Backup of /etc failed
+[2025-04-24 17:27:49] Backing up directory: /home
+[2025-04-24 17:28:20] Backup of /home failed
+[2025-04-24 17:28:20] Directory /var/www does not exist, skipping
+[2025-04-24 17:28:20] Creating backup manifest...
+[2025-04-24 17:28:20] Backup completed successfully

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unix Admin Platform - System Information</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <header>
+        <h1>Unix System Administration Platform</h1>
+    </header>
+    <nav>
+        <a href="/">Dashboard</a>
+        <a href="/system" class="active">System</a>
+        <a href="/monitoring">Monitoring</a>
+        <a href="/security">Security</a>
+        <a href="/backups">Backups</a>
+    </nav>
+    <main>
+        <h2>System Information</h2>
+        
+        <div class="card">
+            <h3>Hardware & OS Information</h3>
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="label">Hostname:</span>
+                    <span class="value">{{hostname}}</span>
+                </div>
+                <div class="info-item">
+                    <span class="label">Operating System:</span>
+                    <span class="value">{{os_name}}</span>
+                </div>
+                <div class="info-item">
+                    <span class="label">Kernel Version:</span>
+                    <span class="value">{{kernel}}</span>
+                </div>
+                <div class="info-item">
+                    <span class="label">Uptime:</span>
+                    <span class="value">{{uptime}}</span>
+                </div>
+                <div class="info-item">
+                    <span class="label">CPU:</span>
+                    <span class="value">{{cpu_info}}</span>
+                </div>
+                <div class="info-item">
+                    <span class="label">Memory:</span>
+                    <span class="value">{{memory_info}}</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h3>Disk Usage</h3>
+            <div id="disk-usage">
+                <div class="loading">Loading disk usage data...</div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h3>Network Interfaces</h3>
+            <div id="network-interfaces">
+                <div class="loading">Loading network interface data...</div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h3>Running Processes</h3>
+            <div id="running-processes">
+                <div class="loading">Loading process data...</div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Unix System Administration Platform | Current Time: {{current_time}}</p>
+    </footer>
+    
+    <script src="/static/system.js"></script>
+</body>
+</html>

@@ -1,0 +1,288 @@
+{"timestamp": "2025-04-24 17:24:40", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /opt/VBoxGuestAdditions-7.1.4/bin/VBoxDRMClient"}
+{"timestamp": "2025-04-24 17:24:40", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /opt/google/chrome/chrome-sandbox"}
+{"timestamp": "2025-04-24 17:24:40", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/share/code/chrome-sandbox"}
+{"timestamp": "2025-04-24 17:24:40", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/bin/pkexec"}
+{"timestamp": "2025-04-24 17:24:40", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/bin/umount"}
+{"timestamp": "2025-04-24 17:24:40", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/bin/su"}
+{"timestamp": "2025-04-24 17:24:40", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/bin/mount"}
+{"timestamp": "2025-04-24 17:24:40", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/bin/ntfs-3g"}
+{"timestamp": "2025-04-24 17:24:40", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/bin/fusermount3"}
+{"timestamp": "2025-04-24 17:24:40", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/lib/polkit-1/polkit-agent-helper-1"}
+{"timestamp": "2025-04-24 17:24:40", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/lib/dbus-1.0/dbus-daemon-launch-helper"}
+{"timestamp": "2025-04-24 17:24:40", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/lib/xorg/Xorg.wrap"}
+{"timestamp": "2025-04-24 17:24:40", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/lib/openssh/ssh-keysign"}
+{"timestamp": "2025-04-24 17:24:40", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/sbin/pppd"}
+{"timestamp": "2025-04-24 17:24:41", "severity": "LOW", "message": "SGID binary found: /usr/bin/dotlockfile"}
+{"timestamp": "2025-04-24 17:24:41", "severity": "LOW", "message": "SGID binary found: /usr/bin/crontab"}
+{"timestamp": "2025-04-24 17:24:41", "severity": "LOW", "message": "SGID binary found: /usr/bin/chage"}
+{"timestamp": "2025-04-24 17:24:41", "severity": "LOW", "message": "SGID binary found: /usr/bin/ssh-agent"}
+{"timestamp": "2025-04-24 17:24:41", "severity": "LOW", "message": "SGID binary found: /usr/bin/expiry"}
+{"timestamp": "2025-04-24 17:24:41", "severity": "LOW", "message": "SGID binary found: /usr/lib/xorg/Xorg.wrap"}
+{"timestamp": "2025-04-24 17:24:41", "severity": "LOW", "message": "SGID binary found: /usr/sbin/unix_chkpwd"}
+{"timestamp": "2025-04-24 17:24:41", "severity": "LOW", "message": "SGID binary found: /usr/libexec/camel-lock-helper-1.2"}
+{"timestamp": "2025-04-24 17:24:41", "severity": "LOW", "message": "Uncommon port 631 (tcp) is open"}
+{"timestamp": "2025-04-24 17:24:41", "severity": "LOW", "message": "Uncommon port 8080 (tcp) is open"}
+{"timestamp": "2025-04-24 17:24:41", "severity": "LOW", "message": "Uncommon port 631 (tcp) is open"}
+{"timestamp": "2025-04-24 17:24:41", "severity": "MEDIUM", "message": "World-writable directories found:"}
+{"timestamp": "2025-04-24 17:24:41", "severity": "MEDIUM", "message": "  - /var/tmp"}
+{"timestamp": "2025-04-24 17:24:41", "severity": "MEDIUM", "message": "  - /tmp"}
+{"timestamp": "2025-04-24 17:24:41", "severity": "MEDIUM", "message": "  - /tmp/.X11-unix"}
+{"timestamp": "2025-04-24 17:24:41", "severity": "MEDIUM", "message": "  - /tmp/.font-unix"}
+{"timestamp": "2025-04-24 17:24:41", "severity": "MEDIUM", "message": "  - /tmp/.XIM-unix"}
+{"timestamp": "2025-04-24 17:24:41", "severity": "MEDIUM", "message": "  - /tmp/.ICE-unix"}
+{"timestamp": "2025-04-24 17:24:41", "severity": "MEDIUM", "message": "  - /run/lock"}
+{"timestamp": "2025-04-24 17:24:44", "severity": "HIGH", "message": "Suspicious cron jobs found in /etc/cron.daily:"}
+{"timestamp": "2025-04-24 17:24:44", "severity": "HIGH", "message": "  - /etc/cron.daily/google-chrome"}
+{"timestamp": "2025-04-24 17:24:44", "severity": "MEDIUM", "message": "No firewall management tool found (iptables, ufw, firewalld)"}
+{"timestamp": "2025-04-24 17:25:12", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /opt/VBoxGuestAdditions-7.1.4/bin/VBoxDRMClient"}
+{"timestamp": "2025-04-24 17:25:12", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /opt/google/chrome/chrome-sandbox"}
+{"timestamp": "2025-04-24 17:25:12", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/share/code/chrome-sandbox"}
+{"timestamp": "2025-04-24 17:25:12", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/bin/pkexec"}
+{"timestamp": "2025-04-24 17:25:12", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/bin/umount"}
+{"timestamp": "2025-04-24 17:25:12", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/bin/su"}
+{"timestamp": "2025-04-24 17:25:12", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/bin/mount"}
+{"timestamp": "2025-04-24 17:25:12", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/bin/ntfs-3g"}
+{"timestamp": "2025-04-24 17:25:12", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/bin/fusermount3"}
+{"timestamp": "2025-04-24 17:25:12", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/lib/polkit-1/polkit-agent-helper-1"}
+{"timestamp": "2025-04-24 17:25:12", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/lib/dbus-1.0/dbus-daemon-launch-helper"}
+{"timestamp": "2025-04-24 17:25:12", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/lib/xorg/Xorg.wrap"}
+{"timestamp": "2025-04-24 17:25:12", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/lib/openssh/ssh-keysign"}
+{"timestamp": "2025-04-24 17:25:12", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/sbin/pppd"}
+{"timestamp": "2025-04-24 17:25:13", "severity": "LOW", "message": "SGID binary found: /usr/bin/dotlockfile"}
+{"timestamp": "2025-04-24 17:25:13", "severity": "LOW", "message": "SGID binary found: /usr/bin/crontab"}
+{"timestamp": "2025-04-24 17:25:13", "severity": "LOW", "message": "SGID binary found: /usr/bin/chage"}
+{"timestamp": "2025-04-24 17:25:13", "severity": "LOW", "message": "SGID binary found: /usr/bin/ssh-agent"}
+{"timestamp": "2025-04-24 17:25:13", "severity": "LOW", "message": "SGID binary found: /usr/bin/expiry"}
+{"timestamp": "2025-04-24 17:25:13", "severity": "LOW", "message": "SGID binary found: /usr/lib/xorg/Xorg.wrap"}
+{"timestamp": "2025-04-24 17:25:13", "severity": "LOW", "message": "SGID binary found: /usr/sbin/unix_chkpwd"}
+{"timestamp": "2025-04-24 17:25:13", "severity": "LOW", "message": "SGID binary found: /usr/libexec/camel-lock-helper-1.2"}
+{"timestamp": "2025-04-24 17:25:13", "severity": "LOW", "message": "Uncommon port 631 (tcp) is open"}
+{"timestamp": "2025-04-24 17:25:13", "severity": "LOW", "message": "Uncommon port 8080 (tcp) is open"}
+{"timestamp": "2025-04-24 17:25:13", "severity": "LOW", "message": "Uncommon port 631 (tcp) is open"}
+{"timestamp": "2025-04-24 17:25:13", "severity": "MEDIUM", "message": "World-writable directories found:"}
+{"timestamp": "2025-04-24 17:25:13", "severity": "MEDIUM", "message": "  - /var/tmp"}
+{"timestamp": "2025-04-24 17:25:13", "severity": "MEDIUM", "message": "  - /tmp"}
+{"timestamp": "2025-04-24 17:25:13", "severity": "MEDIUM", "message": "  - /tmp/.X11-unix"}
+{"timestamp": "2025-04-24 17:25:13", "severity": "MEDIUM", "message": "  - /tmp/.font-unix"}
+{"timestamp": "2025-04-24 17:25:13", "severity": "MEDIUM", "message": "  - /tmp/.XIM-unix"}
+{"timestamp": "2025-04-24 17:25:13", "severity": "MEDIUM", "message": "  - /tmp/.ICE-unix"}
+{"timestamp": "2025-04-24 17:25:13", "severity": "MEDIUM", "message": "  - /run/lock"}
+{"timestamp": "2025-04-24 17:25:15", "severity": "HIGH", "message": "Suspicious cron jobs found in /etc/cron.daily:"}
+{"timestamp": "2025-04-24 17:25:15", "severity": "HIGH", "message": "  - /etc/cron.daily/google-chrome"}
+{"timestamp": "2025-04-24 17:25:15", "severity": "MEDIUM", "message": "No firewall management tool found (iptables, ufw, firewalld)"}
+{"timestamp": "2025-04-25 12:14:41", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /opt/VBoxGuestAdditions-7.1.4/bin/VBoxDRMClient"}
+{"timestamp": "2025-04-25 12:14:42", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /opt/google/chrome/chrome-sandbox"}
+{"timestamp": "2025-04-25 12:14:42", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/share/code/chrome-sandbox"}
+{"timestamp": "2025-04-25 12:14:42", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/bin/pkexec"}
+{"timestamp": "2025-04-25 12:14:42", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/bin/umount"}
+{"timestamp": "2025-04-25 12:14:42", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/bin/su"}
+{"timestamp": "2025-04-25 12:14:42", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/bin/mount"}
+{"timestamp": "2025-04-25 12:14:42", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/bin/ntfs-3g"}
+{"timestamp": "2025-04-25 12:14:42", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/bin/fusermount3"}
+{"timestamp": "2025-04-25 12:14:42", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/lib/polkit-1/polkit-agent-helper-1"}
+{"timestamp": "2025-04-25 12:14:42", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/lib/dbus-1.0/dbus-daemon-launch-helper"}
+{"timestamp": "2025-04-25 12:14:42", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/lib/xorg/Xorg.wrap"}
+{"timestamp": "2025-04-25 12:14:42", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/lib/openssh/ssh-keysign"}
+{"timestamp": "2025-04-25 12:14:42", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/sbin/pppd"}
+{"timestamp": "2025-04-25 12:14:42", "severity": "LOW", "message": "SGID binary found: /usr/bin/dotlockfile"}
+{"timestamp": "2025-04-25 12:14:42", "severity": "LOW", "message": "SGID binary found: /usr/bin/crontab"}
+{"timestamp": "2025-04-25 12:14:42", "severity": "LOW", "message": "SGID binary found: /usr/bin/chage"}
+{"timestamp": "2025-04-25 12:14:42", "severity": "LOW", "message": "SGID binary found: /usr/bin/ssh-agent"}
+{"timestamp": "2025-04-25 12:14:42", "severity": "LOW", "message": "SGID binary found: /usr/bin/expiry"}
+{"timestamp": "2025-04-25 12:14:42", "severity": "LOW", "message": "SGID binary found: /usr/lib/xorg/Xorg.wrap"}
+{"timestamp": "2025-04-25 12:14:42", "severity": "LOW", "message": "SGID binary found: /usr/sbin/unix_chkpwd"}
+{"timestamp": "2025-04-25 12:14:42", "severity": "LOW", "message": "SGID binary found: /usr/libexec/camel-lock-helper-1.2"}
+{"timestamp": "2025-04-25 12:14:42", "severity": "LOW", "message": "Uncommon port 631 (tcp) is open"}
+{"timestamp": "2025-04-25 12:14:42", "severity": "LOW", "message": "Uncommon port 8080 (tcp) is open"}
+{"timestamp": "2025-04-25 12:14:42", "severity": "LOW", "message": "Uncommon port 631 (tcp) is open"}
+{"timestamp": "2025-04-25 12:14:43", "severity": "MEDIUM", "message": "World-writable directories found:"}
+{"timestamp": "2025-04-25 12:14:43", "severity": "MEDIUM", "message": "  - /var/tmp"}
+{"timestamp": "2025-04-25 12:14:43", "severity": "MEDIUM", "message": "  - /tmp"}
+{"timestamp": "2025-04-25 12:14:43", "severity": "MEDIUM", "message": "  - /tmp/.X11-unix"}
+{"timestamp": "2025-04-25 12:14:43", "severity": "MEDIUM", "message": "  - /tmp/.font-unix"}
+{"timestamp": "2025-04-25 12:14:43", "severity": "MEDIUM", "message": "  - /tmp/.XIM-unix"}
+{"timestamp": "2025-04-25 12:14:43", "severity": "MEDIUM", "message": "  - /tmp/.ICE-unix"}
+{"timestamp": "2025-04-25 12:14:43", "severity": "MEDIUM", "message": "  - /run/lock"}
+{"timestamp": "2025-04-25 12:14:45", "severity": "HIGH", "message": "Suspicious cron jobs found in /etc/cron.daily:"}
+{"timestamp": "2025-04-25 12:14:45", "severity": "HIGH", "message": "  - /etc/cron.daily/google-chrome"}
+{"timestamp": "2025-04-25 12:14:45", "severity": "MEDIUM", "message": "No firewall management tool found (iptables, ufw, firewalld)"}
+{"timestamp": "2025-04-25 12:14:49", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /opt/VBoxGuestAdditions-7.1.4/bin/VBoxDRMClient"}
+{"timestamp": "2025-04-25 12:14:49", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /opt/google/chrome/chrome-sandbox"}
+{"timestamp": "2025-04-25 12:14:49", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/share/code/chrome-sandbox"}
+{"timestamp": "2025-04-25 12:14:49", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/bin/pkexec"}
+{"timestamp": "2025-04-25 12:14:49", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/bin/umount"}
+{"timestamp": "2025-04-25 12:14:49", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/bin/su"}
+{"timestamp": "2025-04-25 12:14:49", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/bin/mount"}
+{"timestamp": "2025-04-25 12:14:49", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/bin/ntfs-3g"}
+{"timestamp": "2025-04-25 12:14:49", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/bin/fusermount3"}
+{"timestamp": "2025-04-25 12:14:49", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/lib/polkit-1/polkit-agent-helper-1"}
+{"timestamp": "2025-04-25 12:14:49", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/lib/dbus-1.0/dbus-daemon-launch-helper"}
+{"timestamp": "2025-04-25 12:14:49", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/lib/xorg/Xorg.wrap"}
+{"timestamp": "2025-04-25 12:14:49", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/lib/openssh/ssh-keysign"}
+{"timestamp": "2025-04-25 12:14:49", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/sbin/pppd"}
+{"timestamp": "2025-04-25 12:14:50", "severity": "LOW", "message": "SGID binary found: /usr/bin/dotlockfile"}
+{"timestamp": "2025-04-25 12:14:50", "severity": "LOW", "message": "SGID binary found: /usr/bin/crontab"}
+{"timestamp": "2025-04-25 12:14:50", "severity": "LOW", "message": "SGID binary found: /usr/bin/chage"}
+{"timestamp": "2025-04-25 12:14:50", "severity": "LOW", "message": "SGID binary found: /usr/bin/ssh-agent"}
+{"timestamp": "2025-04-25 12:14:50", "severity": "LOW", "message": "SGID binary found: /usr/bin/expiry"}
+{"timestamp": "2025-04-25 12:14:50", "severity": "LOW", "message": "SGID binary found: /usr/lib/xorg/Xorg.wrap"}
+{"timestamp": "2025-04-25 12:14:50", "severity": "LOW", "message": "SGID binary found: /usr/sbin/unix_chkpwd"}
+{"timestamp": "2025-04-25 12:14:50", "severity": "LOW", "message": "SGID binary found: /usr/libexec/camel-lock-helper-1.2"}
+{"timestamp": "2025-04-25 12:14:50", "severity": "LOW", "message": "Uncommon port 631 (tcp) is open"}
+{"timestamp": "2025-04-25 12:14:50", "severity": "LOW", "message": "Uncommon port 8080 (tcp) is open"}
+{"timestamp": "2025-04-25 12:14:50", "severity": "LOW", "message": "Uncommon port 631 (tcp) is open"}
+{"timestamp": "2025-04-25 12:14:51", "severity": "MEDIUM", "message": "World-writable directories found:"}
+{"timestamp": "2025-04-25 12:14:51", "severity": "MEDIUM", "message": "  - /var/tmp"}
+{"timestamp": "2025-04-25 12:14:51", "severity": "MEDIUM", "message": "  - /tmp"}
+{"timestamp": "2025-04-25 12:14:51", "severity": "MEDIUM", "message": "  - /tmp/.X11-unix"}
+{"timestamp": "2025-04-25 12:14:51", "severity": "MEDIUM", "message": "  - /tmp/.font-unix"}
+{"timestamp": "2025-04-25 12:14:51", "severity": "MEDIUM", "message": "  - /tmp/.XIM-unix"}
+{"timestamp": "2025-04-25 12:14:51", "severity": "MEDIUM", "message": "  - /tmp/.ICE-unix"}
+{"timestamp": "2025-04-25 12:14:51", "severity": "MEDIUM", "message": "  - /run/lock"}
+{"timestamp": "2025-04-25 12:14:53", "severity": "HIGH", "message": "Suspicious cron jobs found in /etc/cron.daily:"}
+{"timestamp": "2025-04-25 12:14:53", "severity": "HIGH", "message": "  - /etc/cron.daily/google-chrome"}
+{"timestamp": "2025-04-25 12:14:53", "severity": "MEDIUM", "message": "No firewall management tool found (iptables, ufw, firewalld)"}
+{"timestamp": "2025-04-25 12:16:11", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /opt/VBoxGuestAdditions-7.1.4/bin/VBoxDRMClient"}
+{"timestamp": "2025-04-25 12:16:11", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /opt/google/chrome/chrome-sandbox"}
+{"timestamp": "2025-04-25 12:16:11", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/share/code/chrome-sandbox"}
+{"timestamp": "2025-04-25 12:16:11", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/bin/pkexec"}
+{"timestamp": "2025-04-25 12:16:11", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/bin/umount"}
+{"timestamp": "2025-04-25 12:16:11", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/bin/su"}
+{"timestamp": "2025-04-25 12:16:11", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/bin/mount"}
+{"timestamp": "2025-04-25 12:16:11", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/bin/ntfs-3g"}
+{"timestamp": "2025-04-25 12:16:11", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/bin/fusermount3"}
+{"timestamp": "2025-04-25 12:16:11", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/lib/polkit-1/polkit-agent-helper-1"}
+{"timestamp": "2025-04-25 12:16:11", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/lib/dbus-1.0/dbus-daemon-launch-helper"}
+{"timestamp": "2025-04-25 12:16:11", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/lib/xorg/Xorg.wrap"}
+{"timestamp": "2025-04-25 12:16:11", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/lib/openssh/ssh-keysign"}
+{"timestamp": "2025-04-25 12:16:11", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/sbin/pppd"}
+{"timestamp": "2025-04-25 12:16:11", "severity": "LOW", "message": "SGID binary found: /usr/bin/dotlockfile"}
+{"timestamp": "2025-04-25 12:16:11", "severity": "LOW", "message": "SGID binary found: /usr/bin/crontab"}
+{"timestamp": "2025-04-25 12:16:11", "severity": "LOW", "message": "SGID binary found: /usr/bin/chage"}
+{"timestamp": "2025-04-25 12:16:11", "severity": "LOW", "message": "SGID binary found: /usr/bin/ssh-agent"}
+{"timestamp": "2025-04-25 12:16:11", "severity": "LOW", "message": "SGID binary found: /usr/bin/expiry"}
+{"timestamp": "2025-04-25 12:16:11", "severity": "LOW", "message": "SGID binary found: /usr/lib/xorg/Xorg.wrap"}
+{"timestamp": "2025-04-25 12:16:11", "severity": "LOW", "message": "SGID binary found: /usr/sbin/unix_chkpwd"}
+{"timestamp": "2025-04-25 12:16:11", "severity": "LOW", "message": "SGID binary found: /usr/libexec/camel-lock-helper-1.2"}
+{"timestamp": "2025-04-25 12:16:11", "severity": "LOW", "message": "Uncommon port 631 (tcp) is open"}
+{"timestamp": "2025-04-25 12:16:11", "severity": "LOW", "message": "Uncommon port 8080 (tcp) is open"}
+{"timestamp": "2025-04-25 12:16:11", "severity": "LOW", "message": "Uncommon port 631 (tcp) is open"}
+{"timestamp": "2025-04-25 12:16:12", "severity": "MEDIUM", "message": "World-writable directories found:"}
+{"timestamp": "2025-04-25 12:16:12", "severity": "MEDIUM", "message": "  - /var/tmp"}
+{"timestamp": "2025-04-25 12:16:12", "severity": "MEDIUM", "message": "  - /tmp"}
+{"timestamp": "2025-04-25 12:16:12", "severity": "MEDIUM", "message": "  - /tmp/.X11-unix"}
+{"timestamp": "2025-04-25 12:16:12", "severity": "MEDIUM", "message": "  - /tmp/.font-unix"}
+{"timestamp": "2025-04-25 12:16:12", "severity": "MEDIUM", "message": "  - /tmp/.XIM-unix"}
+{"timestamp": "2025-04-25 12:16:12", "severity": "MEDIUM", "message": "  - /tmp/.ICE-unix"}
+{"timestamp": "2025-04-25 12:16:12", "severity": "MEDIUM", "message": "  - /run/lock"}
+{"timestamp": "2025-04-25 12:16:14", "severity": "HIGH", "message": "Suspicious cron jobs found in /etc/cron.daily:"}
+{"timestamp": "2025-04-25 12:16:14", "severity": "HIGH", "message": "  - /etc/cron.daily/google-chrome"}
+{"timestamp": "2025-04-25 12:16:14", "severity": "MEDIUM", "message": "No firewall management tool found (iptables, ufw, firewalld)"}
+{"timestamp": "2025-04-25 12:17:55", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /opt/VBoxGuestAdditions-7.1.4/bin/VBoxDRMClient"}
+{"timestamp": "2025-04-25 12:17:55", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /opt/google/chrome/chrome-sandbox"}
+{"timestamp": "2025-04-25 12:17:55", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/share/code/chrome-sandbox"}
+{"timestamp": "2025-04-25 12:17:55", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/bin/pkexec"}
+{"timestamp": "2025-04-25 12:17:55", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/bin/umount"}
+{"timestamp": "2025-04-25 12:17:55", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/bin/su"}
+{"timestamp": "2025-04-25 12:17:55", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/bin/mount"}
+{"timestamp": "2025-04-25 12:17:55", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/bin/ntfs-3g"}
+{"timestamp": "2025-04-25 12:17:55", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/bin/fusermount3"}
+{"timestamp": "2025-04-25 12:17:55", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/lib/polkit-1/polkit-agent-helper-1"}
+{"timestamp": "2025-04-25 12:17:55", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/lib/dbus-1.0/dbus-daemon-launch-helper"}
+{"timestamp": "2025-04-25 12:17:55", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/lib/xorg/Xorg.wrap"}
+{"timestamp": "2025-04-25 12:17:55", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/lib/openssh/ssh-keysign"}
+{"timestamp": "2025-04-25 12:17:55", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/sbin/pppd"}
+{"timestamp": "2025-04-25 12:17:56", "severity": "LOW", "message": "SGID binary found: /usr/bin/dotlockfile"}
+{"timestamp": "2025-04-25 12:17:56", "severity": "LOW", "message": "SGID binary found: /usr/bin/crontab"}
+{"timestamp": "2025-04-25 12:17:56", "severity": "LOW", "message": "SGID binary found: /usr/bin/chage"}
+{"timestamp": "2025-04-25 12:17:56", "severity": "LOW", "message": "SGID binary found: /usr/bin/ssh-agent"}
+{"timestamp": "2025-04-25 12:17:56", "severity": "LOW", "message": "SGID binary found: /usr/bin/expiry"}
+{"timestamp": "2025-04-25 12:17:56", "severity": "LOW", "message": "SGID binary found: /usr/lib/xorg/Xorg.wrap"}
+{"timestamp": "2025-04-25 12:17:56", "severity": "LOW", "message": "SGID binary found: /usr/sbin/unix_chkpwd"}
+{"timestamp": "2025-04-25 12:17:56", "severity": "LOW", "message": "SGID binary found: /usr/libexec/camel-lock-helper-1.2"}
+{"timestamp": "2025-04-25 12:17:56", "severity": "LOW", "message": "Uncommon port 631 (tcp) is open"}
+{"timestamp": "2025-04-25 12:17:56", "severity": "LOW", "message": "Uncommon port 8080 (tcp) is open"}
+{"timestamp": "2025-04-25 12:17:56", "severity": "LOW", "message": "Uncommon port 631 (tcp) is open"}
+{"timestamp": "2025-04-25 12:17:56", "severity": "MEDIUM", "message": "World-writable directories found:"}
+{"timestamp": "2025-04-25 12:17:56", "severity": "MEDIUM", "message": "  - /var/tmp"}
+{"timestamp": "2025-04-25 12:17:56", "severity": "MEDIUM", "message": "  - /tmp"}
+{"timestamp": "2025-04-25 12:17:56", "severity": "MEDIUM", "message": "  - /tmp/.X11-unix"}
+{"timestamp": "2025-04-25 12:17:56", "severity": "MEDIUM", "message": "  - /tmp/.font-unix"}
+{"timestamp": "2025-04-25 12:17:56", "severity": "MEDIUM", "message": "  - /tmp/.XIM-unix"}
+{"timestamp": "2025-04-25 12:17:56", "severity": "MEDIUM", "message": "  - /tmp/.ICE-unix"}
+{"timestamp": "2025-04-25 12:17:56", "severity": "MEDIUM", "message": "  - /run/lock"}
+{"timestamp": "2025-04-25 12:17:58", "severity": "HIGH", "message": "Suspicious cron jobs found in /etc/cron.daily:"}
+{"timestamp": "2025-04-25 12:17:58", "severity": "HIGH", "message": "  - /etc/cron.daily/google-chrome"}
+{"timestamp": "2025-04-25 12:17:58", "severity": "MEDIUM", "message": "No firewall management tool found (iptables, ufw, firewalld)"}
+{"timestamp": "2025-04-25 12:20:14", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /opt/VBoxGuestAdditions-7.1.4/bin/VBoxDRMClient"}
+{"timestamp": "2025-04-25 12:20:14", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /opt/google/chrome/chrome-sandbox"}
+{"timestamp": "2025-04-25 12:20:14", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/share/code/chrome-sandbox"}
+{"timestamp": "2025-04-25 12:20:14", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/bin/pkexec"}
+{"timestamp": "2025-04-25 12:20:14", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/bin/umount"}
+{"timestamp": "2025-04-25 12:20:14", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/bin/su"}
+{"timestamp": "2025-04-25 12:20:14", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/bin/mount"}
+{"timestamp": "2025-04-25 12:20:14", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/bin/ntfs-3g"}
+{"timestamp": "2025-04-25 12:20:14", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/bin/fusermount3"}
+{"timestamp": "2025-04-25 12:20:14", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/lib/polkit-1/polkit-agent-helper-1"}
+{"timestamp": "2025-04-25 12:20:14", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/lib/dbus-1.0/dbus-daemon-launch-helper"}
+{"timestamp": "2025-04-25 12:20:14", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/lib/xorg/Xorg.wrap"}
+{"timestamp": "2025-04-25 12:20:14", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/lib/openssh/ssh-keysign"}
+{"timestamp": "2025-04-25 12:20:14", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/sbin/pppd"}
+{"timestamp": "2025-04-25 12:20:15", "severity": "LOW", "message": "SGID binary found: /usr/bin/dotlockfile"}
+{"timestamp": "2025-04-25 12:20:15", "severity": "LOW", "message": "SGID binary found: /usr/bin/crontab"}
+{"timestamp": "2025-04-25 12:20:15", "severity": "LOW", "message": "SGID binary found: /usr/bin/chage"}
+{"timestamp": "2025-04-25 12:20:15", "severity": "LOW", "message": "SGID binary found: /usr/bin/ssh-agent"}
+{"timestamp": "2025-04-25 12:20:15", "severity": "LOW", "message": "SGID binary found: /usr/bin/expiry"}
+{"timestamp": "2025-04-25 12:20:15", "severity": "LOW", "message": "SGID binary found: /usr/lib/xorg/Xorg.wrap"}
+{"timestamp": "2025-04-25 12:20:15", "severity": "LOW", "message": "SGID binary found: /usr/sbin/unix_chkpwd"}
+{"timestamp": "2025-04-25 12:20:15", "severity": "LOW", "message": "SGID binary found: /usr/libexec/camel-lock-helper-1.2"}
+{"timestamp": "2025-04-25 12:20:15", "severity": "LOW", "message": "Uncommon port 631 (tcp) is open"}
+{"timestamp": "2025-04-25 12:20:15", "severity": "LOW", "message": "Uncommon port 8080 (tcp) is open"}
+{"timestamp": "2025-04-25 12:20:15", "severity": "LOW", "message": "Uncommon port 631 (tcp) is open"}
+{"timestamp": "2025-04-25 12:20:15", "severity": "MEDIUM", "message": "World-writable directories found:"}
+{"timestamp": "2025-04-25 12:20:15", "severity": "MEDIUM", "message": "  - /var/tmp"}
+{"timestamp": "2025-04-25 12:20:15", "severity": "MEDIUM", "message": "  - /tmp"}
+{"timestamp": "2025-04-25 12:20:15", "severity": "MEDIUM", "message": "  - /tmp/.X11-unix"}
+{"timestamp": "2025-04-25 12:20:15", "severity": "MEDIUM", "message": "  - /tmp/.font-unix"}
+{"timestamp": "2025-04-25 12:20:15", "severity": "MEDIUM", "message": "  - /tmp/.XIM-unix"}
+{"timestamp": "2025-04-25 12:20:15", "severity": "MEDIUM", "message": "  - /tmp/.ICE-unix"}
+{"timestamp": "2025-04-25 12:20:15", "severity": "MEDIUM", "message": "  - /run/lock"}
+{"timestamp": "2025-04-25 12:20:17", "severity": "HIGH", "message": "Suspicious cron jobs found in /etc/cron.daily:"}
+{"timestamp": "2025-04-25 12:20:17", "severity": "HIGH", "message": "  - /etc/cron.daily/google-chrome"}
+{"timestamp": "2025-04-25 12:20:17", "severity": "MEDIUM", "message": "No firewall management tool found (iptables, ufw, firewalld)"}
+{"timestamp": "2025-04-25 12:39:42", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /opt/VBoxGuestAdditions-7.1.4/bin/VBoxDRMClient"}
+{"timestamp": "2025-04-25 12:39:42", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /opt/google/chrome/chrome-sandbox"}
+{"timestamp": "2025-04-25 12:39:42", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/share/code/chrome-sandbox"}
+{"timestamp": "2025-04-25 12:39:42", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/bin/pkexec"}
+{"timestamp": "2025-04-25 12:39:42", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/bin/umount"}
+{"timestamp": "2025-04-25 12:39:42", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/bin/su"}
+{"timestamp": "2025-04-25 12:39:42", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/bin/mount"}
+{"timestamp": "2025-04-25 12:39:42", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/bin/ntfs-3g"}
+{"timestamp": "2025-04-25 12:39:42", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/bin/fusermount3"}
+{"timestamp": "2025-04-25 12:39:42", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/lib/polkit-1/polkit-agent-helper-1"}
+{"timestamp": "2025-04-25 12:39:42", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/lib/dbus-1.0/dbus-daemon-launch-helper"}
+{"timestamp": "2025-04-25 12:39:42", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/lib/xorg/Xorg.wrap"}
+{"timestamp": "2025-04-25 12:39:42", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/lib/openssh/ssh-keysign"}
+{"timestamp": "2025-04-25 12:39:42", "severity": "MEDIUM", "message": "Unauthorized SUID binary found: /usr/sbin/pppd"}
+{"timestamp": "2025-04-25 12:39:42", "severity": "LOW", "message": "SGID binary found: /usr/bin/dotlockfile"}
+{"timestamp": "2025-04-25 12:39:42", "severity": "LOW", "message": "SGID binary found: /usr/bin/crontab"}
+{"timestamp": "2025-04-25 12:39:42", "severity": "LOW", "message": "SGID binary found: /usr/bin/chage"}
+{"timestamp": "2025-04-25 12:39:42", "severity": "LOW", "message": "SGID binary found: /usr/bin/ssh-agent"}
+{"timestamp": "2025-04-25 12:39:42", "severity": "LOW", "message": "SGID binary found: /usr/bin/expiry"}
+{"timestamp": "2025-04-25 12:39:42", "severity": "LOW", "message": "SGID binary found: /usr/lib/xorg/Xorg.wrap"}
+{"timestamp": "2025-04-25 12:39:42", "severity": "LOW", "message": "SGID binary found: /usr/sbin/unix_chkpwd"}
+{"timestamp": "2025-04-25 12:39:42", "severity": "LOW", "message": "SGID binary found: /usr/libexec/camel-lock-helper-1.2"}
+{"timestamp": "2025-04-25 12:39:42", "severity": "LOW", "message": "Uncommon port 631 (tcp) is open"}
+{"timestamp": "2025-04-25 12:39:42", "severity": "LOW", "message": "Uncommon port 8080 (tcp) is open"}
+{"timestamp": "2025-04-25 12:39:42", "severity": "LOW", "message": "Uncommon port 631 (tcp) is open"}
+{"timestamp": "2025-04-25 12:39:43", "severity": "MEDIUM", "message": "World-writable directories found:"}
+{"timestamp": "2025-04-25 12:39:43", "severity": "MEDIUM", "message": "  - /var/tmp"}
+{"timestamp": "2025-04-25 12:39:43", "severity": "MEDIUM", "message": "  - /tmp"}
+{"timestamp": "2025-04-25 12:39:43", "severity": "MEDIUM", "message": "  - /tmp/.X11-unix"}
+{"timestamp": "2025-04-25 12:39:43", "severity": "MEDIUM", "message": "  - /tmp/.font-unix"}
+{"timestamp": "2025-04-25 12:39:43", "severity": "MEDIUM", "message": "  - /tmp/.XIM-unix"}
+{"timestamp": "2025-04-25 12:39:43", "severity": "MEDIUM", "message": "  - /tmp/.ICE-unix"}
+{"timestamp": "2025-04-25 12:39:43", "severity": "MEDIUM", "message": "  - /run/lock"}
+{"timestamp": "2025-04-25 12:39:45", "severity": "HIGH", "message": "Suspicious cron jobs found in /etc/cron.daily:"}
+{"timestamp": "2025-04-25 12:39:45", "severity": "HIGH", "message": "  - /etc/cron.daily/google-chrome"}
+{"timestamp": "2025-04-25 12:39:45", "severity": "MEDIUM", "message": "No firewall management tool found (iptables, ufw, firewalld)"}

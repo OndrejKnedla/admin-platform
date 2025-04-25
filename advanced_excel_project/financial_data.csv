@@ -1,0 +1,32 @@
+TransactionID,Date,AccountCode,Department,Category,Description,Amount,Type,ApprovedBy,PaymentMethod,VendorID,InvoiceNumber,DueDate,TaxAmount,Currency,ExchangeRate,ProjectCode,CostCenter,ReconciliationStatus,Notes
+F1001,2025-01-01,1010,Sales,Revenue,Product Sales,15000.00,Income,FIN001,Bank Transfer,V001,INV-2025-001,2025-01-31,1500.00,USD,1.00,P001,CC001,Reconciled,January sales revenue
+F1002,2025-01-02,2010,Marketing,Expense,Digital Advertising,-2500.00,Expense,FIN002,Credit Card,V002,INV-2025-002,2025-02-01,0.00,USD,1.00,P002,CC002,Reconciled,Google Ads campaign
+F1003,2025-01-03,2020,Operations,Expense,Office Supplies,-750.00,Expense,FIN001,Credit Card,V003,INV-2025-003,2025-02-02,75.00,USD,1.00,P003,CC003,Reconciled,Monthly office supplies
+F1004,2025-01-04,2030,HR,Expense,Training Program,-1800.00,Expense,FIN003,Bank Transfer,V004,INV-2025-004,2025-02-03,0.00,USD,1.00,P004,CC004,Reconciled,Employee development program
+F1005,2025-01-05,1020,Sales,Revenue,Service Contracts,8500.00,Income,FIN002,Bank Transfer,V005,INV-2025-005,2025-02-04,850.00,USD,1.00,P001,CC001,Reconciled,Annual service contracts
+F1006,2025-01-06,2040,IT,Expense,Software Licenses,-3200.00,Expense,FIN001,Credit Card,V006,INV-2025-006,2025-02-05,320.00,USD,1.00,P005,CC005,Reconciled,Annual software renewals
+F1007,2025-01-07,2050,Facilities,Expense,Rent,-5000.00,Expense,FIN003,Bank Transfer,V007,INV-2025-007,2025-02-06,0.00,USD,1.00,P006,CC006,Reconciled,Monthly office rent
+F1008,2025-01-08,2060,Operations,Expense,Utilities,-950.00,Expense,FIN002,Bank Transfer,V008,INV-2025-008,2025-02-07,95.00,USD,1.00,P003,CC003,Reconciled,Monthly utilities
+F1009,2025-01-09,1030,Sales,Revenue,Consulting Services,12000.00,Income,FIN001,Bank Transfer,V009,INV-2025-009,2025-02-08,1200.00,USD,1.00,P007,CC001,Reconciled,Project consulting
+F1010,2025-01-10,2070,Marketing,Expense,Event Sponsorship,-4500.00,Expense,FIN003,Bank Transfer,V010,INV-2025-010,2025-02-09,0.00,USD,1.00,P002,CC002,Reconciled,Industry conference sponsorship
+F1011,2025-01-11,2080,HR,Expense,Health Insurance,-3800.00,Expense,FIN002,Bank Transfer,V011,INV-2025-011,2025-02-10,0.00,USD,1.00,P004,CC004,Reconciled,Monthly employee benefits
+F1012,2025-01-12,2090,Sales,Expense,Travel Expenses,-1200.00,Expense,FIN001,Credit Card,V012,INV-2025-012,2025-02-11,120.00,USD,1.00,P001,CC001,Reconciled,Sales team travel
+F1013,2025-01-13,1040,Sales,Revenue,Product Sales,18500.00,Income,FIN003,Bank Transfer,V001,INV-2025-013,2025-02-12,1850.00,USD,1.00,P001,CC001,Reconciled,Mid-month sales revenue
+F1014,2025-01-14,2100,IT,Expense,Hardware Purchases,-7500.00,Expense,FIN002,Bank Transfer,V013,INV-2025-014,2025-02-13,750.00,USD,1.00,P005,CC005,Reconciled,New employee laptops
+F1015,2025-01-15,2110,Operations,Expense,Shipping Costs,-850.00,Expense,FIN001,Credit Card,V014,INV-2025-015,2025-02-14,85.00,USD,1.00,P003,CC003,Reconciled,Product shipping
+F1016,2025-01-16,2120,Marketing,Expense,Content Creation,-1800.00,Expense,FIN003,Credit Card,V015,INV-2025-016,2025-02-15,180.00,USD,1.00,P002,CC002,Reconciled,Blog and social media content
+F1017,2025-01-17,1050,Sales,Revenue,Service Contracts,9200.00,Income,FIN002,Bank Transfer,V005,INV-2025-017,2025-02-16,920.00,USD,1.00,P001,CC001,Reconciled,New service agreements
+F1018,2025-01-18,2130,Facilities,Expense,Maintenance,-1100.00,Expense,FIN001,Bank Transfer,V016,INV-2025-018,2025-02-17,110.00,USD,1.00,P006,CC006,Reconciled,Building maintenance
+F1019,2025-01-19,2140,HR,Expense,Recruitment,-2500.00,Expense,FIN003,Credit Card,V017,INV-2025-019,2025-02-18,0.00,USD,1.00,P004,CC004,Reconciled,Job postings and agency fees
+F1020,2025-01-20,2150,Operations,Expense,Equipment Rental,-950.00,Expense,FIN002,Bank Transfer,V018,INV-2025-020,2025-02-19,95.00,USD,1.00,P003,CC003,Reconciled,Temporary equipment
+F1021,2025-01-21,1060,Sales,Revenue,Consulting Services,14500.00,Income,FIN001,Bank Transfer,V009,INV-2025-021,2025-02-20,1450.00,USD,1.00,P007,CC001,Reconciled,Project milestone payment
+F1022,2025-01-22,2160,IT,Expense,Cloud Services,-2800.00,Expense,FIN003,Credit Card,V019,INV-2025-022,2025-02-21,280.00,USD,1.00,P005,CC005,Reconciled,Monthly cloud infrastructure
+F1023,2025-01-23,2170,Marketing,Expense,Market Research,-3500.00,Expense,FIN002,Bank Transfer,V020,INV-2025-023,2025-02-22,350.00,USD,1.00,P002,CC002,Reconciled,Industry analysis report
+F1024,2025-01-24,2180,Sales,Expense,Commission,-4200.00,Expense,FIN001,Bank Transfer,V021,INV-2025-024,2025-02-23,0.00,USD,1.00,P001,CC001,Reconciled,Sales team commission
+F1025,2025-01-25,1070,Sales,Revenue,Product Sales,16800.00,Income,FIN003,Bank Transfer,V001,INV-2025-025,2025-02-24,1680.00,USD,1.00,P001,CC001,Reconciled,Late month sales
+F1026,2025-01-26,2190,Operations,Expense,Inventory Purchase,-9500.00,Expense,FIN002,Bank Transfer,V022,INV-2025-026,2025-02-25,950.00,USD,1.00,P003,CC003,Reconciled,Stock replenishment
+F1027,2025-01-27,2200,Facilities,Expense,Security Services,-1200.00,Expense,FIN001,Bank Transfer,V023,INV-2025-027,2025-02-26,120.00,USD,1.00,P006,CC006,Reconciled,Monthly security service
+F1028,2025-01-28,2210,HR,Expense,Employee Events,-1500.00,Expense,FIN003,Credit Card,V024,INV-2025-028,2025-02-27,150.00,USD,1.00,P004,CC004,Reconciled,Team building activity
+F1029,2025-01-29,1080,Sales,Revenue,Service Contracts,7800.00,Income,FIN002,Bank Transfer,V005,INV-2025-029,2025-02-28,780.00,USD,1.00,P001,CC001,Reconciled,Service contract renewals
+F1030,2025-01-30,2220,IT,Expense,IT Consulting,-4800.00,Expense,FIN001,Bank Transfer,V025,INV-2025-030,2025-03-01,480.00,USD,1.00,P005,CC005,Reconciled,System integration project
+F1031,2025-01-31,2230,Marketing,Expense,Advertising,-3200.00,Expense,FIN003,Credit Card,V002,INV-2025-031,2025-03-02,320.00,USD,1.00,P002,CC002,Reconciled,Print advertising campaign

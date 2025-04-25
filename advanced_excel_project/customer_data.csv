@@ -1,0 +1,16 @@
+CustomerID,FirstName,LastName,Email,Phone,Address,City,State,ZipCode,Country,CustomerType,JoinDate,CreditLimit,LoyaltyPoints,LastPurchaseDate,TotalPurchases,PreferredPaymentMethod,MarketingOptIn,AccountManager,CustomerSegment
+C5001,John,Smith,john.smith@email.com,555-123-4567,123 Main St,New York,NY,10001,USA,Retail,2023-01-15,1000,250,2025-01-31,15,Credit Card,Yes,AM001,High Value
+C5002,Emily,Johnson,emily.j@email.com,555-234-5678,456 Oak Ave,Los Angeles,CA,90001,USA,Retail,2023-02-20,800,180,2025-02-15,12,PayPal,Yes,AM002,Medium Value
+C5003,Michael,Williams,m.williams@company.com,555-345-6789,789 Pine Rd,Chicago,IL,60007,USA,Corporate,2023-03-10,5000,520,2025-02-16,8,Bank Transfer,No,AM003,Key Account
+C5004,Jessica,Brown,jess.brown@email.com,555-456-7890,101 Maple Dr,Houston,TX,77001,USA,Retail,2023-04-05,1200,310,2025-02-16,18,Credit Card,Yes,AM001,High Value
+C5005,David,Jones,david.j@email.com,555-567-8901,202 Cedar Ln,Phoenix,AZ,85001,USA,Retail,2023-05-12,750,160,2025-02-17,10,Cash,No,AM002,Medium Value
+C5006,Sarah,Garcia,s.garcia@company.com,555-678-9012,303 Birch Blvd,Philadelphia,PA,19019,USA,Corporate,2023-06-18,4500,480,2025-02-17,7,Credit Card,Yes,AM003,Key Account
+C5007,Robert,Miller,robert.m@email.com,555-789-0123,404 Elm St,San Antonio,TX,78201,USA,Retail,2023-07-22,900,220,2025-02-18,14,PayPal,Yes,AM001,Medium Value
+C5008,Jennifer,Davis,jen.davis@company.com,555-890-1234,505 Walnut Ave,San Diego,CA,92101,USA,Corporate,2023-08-30,6000,650,2025-02-18,9,Bank Transfer,No,AM002,Key Account
+C5009,William,Rodriguez,will.r@email.com,555-901-2345,606 Spruce Rd,Dallas,TX,75201,USA,Retail,2023-09-14,1100,290,2025-02-19,16,Credit Card,Yes,AM003,High Value
+C5010,Lisa,Martinez,lisa.m@email.com,555-012-3456,707 Pine Dr,San Jose,CA,95101,USA,Retail,2023-10-25,850,190,2025-02-19,11,Cash,Yes,AM001,Medium Value
+C5011,James,Hernandez,j.hernandez@company.com,555-123-4567,808 Oak Ln,Austin,TX,78701,USA,Corporate,2023-11-08,5500,580,2025-02-17,8,Credit Card,No,AM002,Key Account
+C5012,Mary,Lopez,mary.lopez@email.com,555-234-5678,909 Maple Blvd,Indianapolis,IN,46201,USA,Retail,2023-12-12,950,240,2025-02-18,15,PayPal,Yes,AM003,Medium Value
+C5013,Richard,Gonzalez,r.gonzalez@company.com,555-345-6789,111 Cedar St,Columbus,OH,43201,USA,Corporate,2024-01-05,4800,510,2025-02-18,7,Bank Transfer,No,AM001,Key Account
+C5014,Patricia,Wilson,pat.wilson@email.com,555-456-7890,222 Birch Ave,Charlotte,NC,28201,USA,Retail,2024-02-18,1300,330,2025-02-19,19,Credit Card,Yes,AM002,High Value
+C5015,Thomas,Anderson,t.anderson@email.com,555-567-8901,333 Elm Rd,Seattle,WA,98101,USA,Retail,2024-03-24,700,150,2025-02-19,9,Cash,No,AM003,Medium Value

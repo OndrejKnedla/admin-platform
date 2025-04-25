@@ -1,0 +1,75 @@
+===================================
+SYSTEM INFORMATION REPORT
+Generated on: Thu Apr 24 03:34:22 PM CEST 2025
+===================================
+
+=== SYSTEM UPTIME ===
+Collecting system uptime...
+ 15:34:22 up  3:20,  1 user,  load average: 0.49, 0.33, 0.19
+
+=== MEMORY USAGE ===
+Collecting memory usage...
+               total        used        free      shared  buff/cache   available
+Mem:            43Gi       3.8Gi        36Gi       161Mi       3.2Gi        39Gi
+Swap:          974Mi          0B       974Mi
+
+=== DISK USAGE ===
+Collecting disk usage...
+Filesystem      Size  Used Avail Use% Mounted on
+udev             22G     0   22G   0% /dev
+tmpfs           4.4G  1.3M  4.4G   1% /run
+/dev/sda1        39G  7.3G   29G  20% /
+tmpfs            22G   84M   22G   1% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+tmpfs           4.4G  2.5M  4.4G   1% /run/user/1000
+
+=== CPU INFORMATION ===
+Collecting CPU information...
+CPU(s):                               8
+Model name:                           Intel(R) Core(TM) i5-14400
+Thread(s) per core:                   1
+Core(s) per socket:                   8
+Socket(s):                            1
+
+=== CURRENT USERS ===
+Collecting current user information...
+metin    tty2         2025-04-24 12:13 (tty2)
+
+=== TOP PROCESSES ===
+Collecting top processes by CPU usage...
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+metin       1464 12.9  1.2 5826564 587552 ?      Ssl  12:13  26:03 /usr/bin/gnome-shell
+metin      26518  2.7  0.8 1219661784 369192 ?   Sl   14:57   1:01 /usr/share/code/code --type=renderer --enable-crash-reporter=7beb92a6-075e-40d9-839f-ca7a9e474d9f,no_channel --user-data-dir=/home/metin/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --app-path=/usr/share/code/resources/app --enable-sandbox --enable-blink-features=HighlightAPI --js-flags=--nodecommit_pooled_pages --disable-gpu-compositing --disable-blink-features=FontMatchingCTMigration,StandardizedBrowserZoom, --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=22 --time-ticks-at-unix-epoch=-1745489605556852 --launch-time-ticks=9837470924 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,11504965362928592302,737406374245908143,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --variations-seed-version --vscode-window-config=vscode:9cb283f5-81ae-4473-ac62-c8bc462ca7a5
+metin       7618  2.2  0.4 34168336 203640 ?     Sl   12:33   4:08 /usr/share/code/code --type=gpu-process --enable-crash-reporter=7beb92a6-075e-40d9-839f-ca7a9e474d9f,no_channel --user-data-dir=/home/metin/.config/Code --gpu-preferences=UAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAABgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAABAAAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --shared-files --field-trial-handle=3,i,11504965362928592302,737406374245908143,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --variations-seed-version
+metin       1769  1.1  1.1 3137016 533688 ?      Sl   12:13   2:20 /usr/bin/gnome-software --gapplication-service
+metin      28805  0.8  0.1 1216099948 84496 ?    Sl   15:34   0:00 /usr/share/code/code /usr/share/code/resources/app/extensions/markdown-language-features/dist/serverWorkerMain --node-ipc --clientProcessId=26495
+metin       7651  0.6  0.6 1217937320 290600 ?   Sl   12:33   1:09 /usr/share/code/code --type=renderer --enable-crash-reporter=7beb92a6-075e-40d9-839f-ca7a9e474d9f,no_channel --user-data-dir=/home/metin/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --app-path=/usr/share/code/resources/app --enable-sandbox --enable-blink-features=HighlightAPI --js-flags=--nodecommit_pooled_pages --disable-blink-features=FontMatchingCTMigration,StandardizedBrowserZoom, --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=4 --time-ticks-at-unix-epoch=-1745489605556852 --launch-time-ticks=1225498019 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,11504965362928592302,737406374245908143,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --variations-seed-version --vscode-window-config=vscode:9cb283f5-81ae-4473-ac62-c8bc462ca7a5
+metin       8580  0.6  0.8 34593748 400300 ?     SLl  12:35   1:05 /opt/google/chrome/chrome
+metin       8662  0.6  0.3 34302652 158260 ?     Sl   12:35   1:05 /opt/google/chrome/chrome --type=gpu-process --crashpad-handler-pid=8607 --enable-crash-reporter=, --change-stack-guard-on-fork=enable --gpu-preferences=UAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAABgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAABAAAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --shared-files --field-trial-handle=3,i,17994347858260503059,4732322482738169486,262144 --disable-features=EyeDropper --variations-seed-version
+metin      26495  0.5  0.4 1217877020 200664 ?   Sl   14:57   0:11 /usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --dns-result-order=ipv4first --inspect-port=0 --enable-crash-reporter=7beb92a6-075e-40d9-839f-ca7a9e474d9f,no_channel --user-data-dir=/home/metin/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,11504965362928592302,737406374245908143,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --variations-seed-version
+metin      27266  0.5  0.5 1459759052 251472 ?   Sl   14:57   0:10 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=8607 --enable-crash-reporter=5a5e494c-484a-42f8-abf5-08fdbb8c91d6, --change-stack-guard-on-fork=enable --disable-gpu-compositing --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=271 --time-ticks-at-unix-epoch=-1745489605556853 --launch-time-ticks=9874782820 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,17994347858260503059,4732322482738169486,262144 --disable-features=EyeDropper --variations-seed-version
+
+=== NETWORK INFORMATION ===
+Collecting network information...
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host noprefixroute 
+       valid_lft forever preferred_lft forever
+2: enp0s3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether 08:00:27:2a:26:0d brd ff:ff:ff:ff:ff:ff
+    inet 10.0.2.15/24 brd 10.0.2.255 scope global dynamic noprefixroute enp0s3
+       valid_lft 74347sec preferred_lft 74347sec
+    inet6 fd00::7e37:8b40:d3c0:9c7b/64 scope global temporary dynamic 
+       valid_lft 86143sec preferred_lft 14143sec
+    inet6 fd00::a00:27ff:fe2a:260d/64 scope global dynamic mngtmpaddr noprefixroute 
+       valid_lft 86143sec preferred_lft 14143sec
+    inet6 fe80::a00:27ff:fe2a:260d/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+
+Network connections:
+
+===================================
+END OF REPORT
+===================================

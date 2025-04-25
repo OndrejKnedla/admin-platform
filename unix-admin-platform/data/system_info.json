@@ -1,0 +1,9 @@
+{
+  "hostname": "vbox",
+  "os": "Debian GNU/Linux 12 (bookworm)",
+  "kernel": "6.1.0-33-amd64",
+  "uptime": "up 40 minutes",
+  "cpu_cores": 8,
+  "memory_total": "43Gi",
+  "collected_at": "2025-04-25 12:35:25"
+}
