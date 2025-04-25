@@ -47,7 +47,6 @@ The dashboard can be easily customized to:
 
 ## Created By
 Ondřej Knedla
-For job application demonstration
 
 ---
 
