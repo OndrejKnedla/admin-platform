@@ -246,7 +246,7 @@ Perform full disk analysis:
 
 ## Author
 
-Your Name
+Ondřej Knedla
 
 ## License
 
