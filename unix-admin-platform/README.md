@@ -199,7 +199,7 @@ Enable or disable a task:
 
 ## Author
 
-Your Name
+Ondřej Knedla
 
 ## License
 
